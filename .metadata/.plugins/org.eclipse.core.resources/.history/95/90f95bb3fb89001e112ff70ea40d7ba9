@@ -25,14 +25,45 @@ total.
 		
 		if (dia == 'X') {
 			total = (numEntradas * precio) - ((numEntradas * precio)*descuento/cien);
-			System.out.printf("El precio con el descuento aplicado para el miercoles es de %.2f",total);
+			System.out.println("");
 			
 			
 		}else {
-			total = precio * numEntradas;
-			
-			System.out.printf("El precio para entrar en el cine es de %.2f",total);
 			
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
+
 }

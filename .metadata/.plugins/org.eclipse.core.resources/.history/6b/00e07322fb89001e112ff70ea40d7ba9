@@ -34,7 +34,7 @@ si el total es mayor de 100 €. Si no es superior, se mostrará el mensaje "No 
 			System.out.println("#########################################################");
 			System.out.println("Introduzca el descuento");
 			desc=Leer.datoDouble();
-			precTotal = precFinal -(precFinal*desc)/cien;
+			precTotal = (precFinal*desc)/cien;
 			System.out.printf("El precio con el descuento aplicado es de %.2f", precTotal);
 			
 		}else {
