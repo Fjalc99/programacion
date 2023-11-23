@@ -1,0 +1,23 @@
+package principal;
+
+import model.Producto;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Producto [] listado;
+		Producto p1;
+		Producto p2;
+		int tam = 10;
+		
+		Producto p1 = new Producto ("1a","Atún",1.50, true);
+		Producto p2 = new Producto ("1b","Pan de molde",4.50, true);
+		 listado = new PRoducto [tam];
+		
+		
+		
+	}
+
+}

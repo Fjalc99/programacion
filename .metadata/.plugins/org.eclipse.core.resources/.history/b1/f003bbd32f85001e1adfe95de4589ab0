@@ -1,0 +1,87 @@
+package ejemploarrays;
+
+import java.util.Iterator;
+import java.util.Random;
+
+import utilidades.Leer;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int tam;
+		int tam2=8, desde, hasta;
+		Random num  = Random(System.nanoTime());
+		
+		//1.Declaracion de arrays, varias formas
+		
+		//a) Dando valores inicialmente, inicializando
+		//Como no damos el tamaño, el tamaño es directamente
+		// El numero de elementos que ponemos
+		int []lista= {2,3,6}; //Tamaño?3 Ya se puede usar
+		
+		//b) declarando e instanciando en diferentes lineas
+		
+		// Primero se declara, siempre primero
+		
+		int lista2[];
+		//todavia no se puede usar
+		//necesito el tamaño, lo pido, 
+		//tengo que declarar una variable al comienzo para guardarlo
+		
+		System.out.println("Diga el tamaño");
+		tam=Leer.datoInt();
+		//Instanciando con ese tamaño
+		
+		lista2=new int [tam]; //El tamaño es el leido, ya que se puede usar
+		
+		//c) Todo en la misma linea, debemos tener el tamaño antes
+		
+		int [] lista3=new int [tam2];
+		
+		
+		//El mejor el segundo, aunque puede que nos encontremos el primero
+		
+		//2. Cargar, rellenar array
+		// Varias formas
+		//Para recorrer una array siempre hace falta un bucle y vamos a usar el for
+		// a) Leyendo por teclado
+		
+		for (int i = 0; i < lista.length; i++) {
+			lista[i]=Leer.datoInt();
+			
+		}
+		
+		
+		// b) Aleatoriamente, necesitamos hasta y desde declarados al principio
+		System.out.println("Diga desde");
+		desde=Leer.datoInt();
+		System.out.println("Diga hasta");
+		hasta=Leer.datoInt();
+		for (int i = 0; i < lista.length; i++) {
+			lista[i]= num.nextInt(hasta-desde+1)+desde;
+		}
+		
+		// c) Cascaporra style
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+	private static Random Random(long nanoTime) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
