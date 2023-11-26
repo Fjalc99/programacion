@@ -2316,14 +2316,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2023-11-25 11:11:55.551 -----------------------------------------------
 eclipse.buildId=4.28.0.20230608-1200
 java.version=17.0.7
+=======
+!SESSION 2023-11-24 10:10:51.314 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8
+>>>>>>> d5f5b8fc959e84c806a3a3954023814118935f98
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.emf.ecore 2 0 2023-11-25 11:11:56.344
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
@@ -2479,6 +2486,20 @@ java.io.FileNotFoundException: /css/gef_dark.css
 !ENTRY org.eclipse.jface 2 0 2023-11-25 11:12:25.719
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-11-25 11:12:25.719
+=======
+!ENTRY org.eclipse.emf.ecore 2 0 2023-11-24 10:10:55.743
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-24 10:10:56.016
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-24 10:11:08.092
+!MESSAGE Logback config file: C:\Users\alcantarilla.cafra24\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-24 10:11:09.750
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-24 10:11:09.750
+>>>>>>> d5f5b8fc959e84c806a3a3954023814118935f98
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -2497,6 +2518,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2023-11-25 11:12:28.648
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.lsp4e.operations.typeHierarchy.TypeHierarchyView" id and the "Type Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
@@ -4802,3 +4824,11 @@ Caused by: java.io.FileNotFoundException: C:\Users\alcantarilla.cafra24\AppData\
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 76 more
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-24 10:11:13.912
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alcantarilla.cafra24'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> d5f5b8fc959e84c806a3a3954023814118935f98
