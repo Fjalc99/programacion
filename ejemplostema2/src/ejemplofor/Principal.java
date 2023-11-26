@@ -6,18 +6,19 @@ public class Principal {
 
 	public static void main(String[] args) {
 	
-	int tope=0;
-	String palabra;
+	int tope=10;
+	int num1;
 	
 	
-	System.out.println("Que palabra quieres");
-	palabra=Leer.dato();
-	System.out.println("Cual es tu tope"); 
-	tope=Leer.datoInt();
+	System.out.println("Que numero quieres");
+	num1=Leer.datoInt();
+	
 		
-	for (int i=0;i<tope;i++) {
+	for (int i=0;i<=tope;i++) {
 		
-		System.out.println(palabra);
+		System.out.println( i + "*" + num1 + "=" + i * num1);
+		
+		
 		
 		
 			
