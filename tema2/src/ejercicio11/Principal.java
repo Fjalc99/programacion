@@ -31,11 +31,11 @@ EQUIVALENCIA  0.38    0.91   1.00   0.38     2.53    1.06     0.92    1.2 */
 		switch (planeta) { 
 		
 		 	case 1: 
-		 	System.out.println("Has seleccionado saber su peso en Mercurio, introduzca su peso");
-		 	pesoPersona=Leer.datoDouble();
-		 	pesoPlaneta=pesoPersona*mer;
-		 	System.out.println("Su peso en mercurio es de "+pesoPlaneta+"kg");
-		 	break;
+			 	System.out.println("Has seleccionado saber su peso en Mercurio, introduzca su peso");
+			 	pesoPersona=Leer.datoDouble();
+			 	pesoPlaneta=pesoPersona*mer;
+			 	System.out.println("Su peso en mercurio es de "+pesoPlaneta+"kg");
+			 	break;
 		 	
 		 	case 2:
 		 	System.out.println("Has seleccionado saber su peso en Venus, introduzca su peso");
@@ -88,7 +88,7 @@ EQUIVALENCIA  0.38    0.91   1.00   0.38     2.53    1.06     0.92    1.2 */
 		 	
 		 	default:
 		 	System.out.println("Opción no valida :(");
-	
+		 	break;
 		
 	    }	
 			System.out.println("Gracias por usar el progama :)");

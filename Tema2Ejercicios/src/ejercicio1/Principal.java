@@ -21,13 +21,13 @@ posibilidad de que sean iguales.*/
 		if(num1 > num2){
 			System.out.println("El numero mayor es "+num1);
 		}else {
-			System.out.println("El numero mayor es "+num2);
+			if(num1 < num2) {
+				System.out.println("El número mayo es "+num2);
+			}else {
+				System.out.println("Los numeros  son iguales");
+			} 
 		}	
 		System.out.println("##############################");
-		if(num1 == num2) {
-			System.out.println("Los numeros son iguales");
-		}else {
-			System.out.println("Los numeros no son iguales");
-		} 
+		
 	}
 }

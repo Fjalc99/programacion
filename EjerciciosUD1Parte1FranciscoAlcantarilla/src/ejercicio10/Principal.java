@@ -20,7 +20,7 @@ unidades de un producto que cuesta 12,99 € y se le aplica un descuento del 3 %
 		System.out.println("Ahora vamos aplicarle el descuento al producto");
 		
 		precDesc= precTotalProd * desc / cien;
-		System.out.println("#####################################################################");
+		System.out.print("#####################################################################"+precDesc+"€");
 		System.out.printf("El descuento aplicado es de %.2f € y ahora vamos a ver cual es totla del producto \n",precDesc);
 		
 		precFinal= precTotalProd - precDesc;
