@@ -19,3 +19,5 @@ public class Ejercicio2 {
 	      System.out.println(contains(my_array1, 2015));
 	   } 
 }
+
+//El cambio era que el if no comparaba haciendo el igual que

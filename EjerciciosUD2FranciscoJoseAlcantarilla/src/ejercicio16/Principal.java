@@ -29,7 +29,7 @@ que le corresponde.*/
 		}else {
 			if (horas > cuarenta) {
 				horasExtra = (horas - cuarenta) * extra;
-				total = horas * suel1 + horasExtra;
+				total = cuarenta * suel1 + horasExtra;
 				System.out.println("El sueldo total con las horas extras es de "+total + "€");
 				
 			}

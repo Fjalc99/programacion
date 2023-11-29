@@ -46,20 +46,26 @@ public class Principal {
 		// Varias formas
 		//Para recorrer una array siempre hace falta un bucle y vamos a usar el for
 		// a) Leyendo por teclado
-		
-		for (int i = 0; i < lista.length; i++) {
-			lista[i]=Leer.datoInt();
+		System.out.println("introduzca los números para rellenar");
+		for (int i = 0; i < lista2.length; i++) {
+			lista2[i]=Leer.datoInt();
 			
 		}
 		
+		
+		for (int i = 0; i < lista2.length; i++) {
+			System.out.println(" "+lista2[i]);
+		}
 		
 		// b) Aleatoriamente, necesitamos hasta y desde declarados al principio
 		System.out.println("Diga desde");
 		desde=Leer.datoInt();
 		System.out.println("Diga hasta");
 		hasta=Leer.datoInt();
-		for (int i = 0; i < lista.length; i++) {
-			lista[i]= num.nextInt(hasta-desde+1)+desde;
+		
+		
+		for (int i = 0; i < lista2.length; i++) {
+			lista2[i]= num.nextInt(hasta-desde+1)+desde;
 		}
 		
 		// c) Cascaporra style
@@ -69,23 +75,28 @@ public class Principal {
 	
 		//3. mostrar Array
 		
-		for (int i = 0; i < lista4.length; i++) {
-			System.out.println(""+lista[i]);
+		for (int i = 0; i < lista2.length; i++) {
+			System.out.println(" "+lista2[i]);
 		}
 		
 		//4. Acceso a un elemento
 		
 		System.out.println("Indique el elemento qué desea cambiar:");
-		elemento=Leer.datoInt();
+		elemento=Leer.datoInt()-1;
 		System.out.println("Indique el nuevo valor:");
 		nuevoValor=Leer.datoInt();
 		
-		lista4[elemento] = nuevoValor;
+		lista2[elemento] = nuevoValor;
+		
+		
+		for (int i = 0; i < lista2.length; i++) {
+			System.out.println(" "+lista2[i]);
+		}
 		
 		//5. sumamos los elementos
 		
-		for (int i = 0; i < lista4.length; i++) {
-			total += lista4[i];
+		for (int i = 0; i < lista2.length; i++) {
+			total += lista2[i];
 		}
 		
 		
