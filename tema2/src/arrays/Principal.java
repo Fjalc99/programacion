@@ -6,7 +6,9 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		int tam;
+		int lista [];
 		
+		lista = new int [tam];
 		
 	}
 
