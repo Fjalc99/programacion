@@ -14,30 +14,28 @@ deberá pedir al usuario el número de horas trabajadas por el obrero en total y
 que le corresponde.*/
 		
 		double suel1 = 16.00,total = 0;
-		int horas, cuarenta = 40, horasExtra = 0, extra = 20;
+		int horas = 0, cuarenta = 40, horasExtra = 0, extra = 20;
 		
-		
-		System.out.println("Bienvenidos al programa");
-		
-		System.out.println("Introduzca el número de horas trabajadas");
-		horas=Leer.datoInt();
-		
-		if (horas <= cuarenta) {
-			total = horas * suel1;
-			System.out.println("El sueldo total es de "+total + "€");
+		do {
+			System.out.println("Bienvenidos al programa");
 			
-		}else {
-			if (horas > cuarenta) {
-				horasExtra = (horas - cuarenta) * extra;
-				total = cuarenta * suel1 + horasExtra;
-				System.out.println("El sueldo total con las horas extras es de "+total + "€");
+			System.out.println("Introduzca el número de horas trabajadas");
+			horas=Leer.datoInt();
+			
+			if (horas <= cuarenta) {
+				total = horas * suel1;
+				System.out.println("El sueldo total es de "+total + "€");
 				
+			}else {
+				if (horas > cuarenta) {
+					horasExtra = (horas - cuarenta) * extra;
+					total = cuarenta * suel1 + horasExtra;
+					System.out.println("El sueldo total con las horas extras es de "+total + "€");
+					
+				}
 			}
-		}
-		
-		
-		
-		
+			
+		}while (horas != 0);
 	}
   }
 
