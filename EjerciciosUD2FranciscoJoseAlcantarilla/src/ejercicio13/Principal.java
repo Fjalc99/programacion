@@ -24,7 +24,7 @@ public class Principal {
 					System.out.println("Indique el numero que deseas multiplicar");
 					num=Leer.datoInt();
 					for (int i = 0; i <= tope; i++) {
-						System.out.println( i + "*" + num + "=" + i * num);
+						System.out.println( i + "X" + num + "=" + i * num);
 	
 					}
 						
