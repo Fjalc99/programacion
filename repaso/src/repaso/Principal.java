@@ -43,6 +43,7 @@ public class Principal {
 		System.out.println("Hola, gestionamos productos");
 		System.out.println("Pulse 1 para agregar un nuevo producto");
 		System.out.println("Pulse 2 para mostrar lista");
+		System.out.println("Pulse 3 para buscar el producto");
 		System.out.println("Pulse 0 para salir ");
 		op=Leer.datoInt();
 		
@@ -50,6 +51,7 @@ public class Principal {
 			switch(op) {
 						case 0:
 							System.out.println("Ha decidido salir");
+							break;
 				
 						case 1:
 							System.out.println("Diga el nombre del producto");
@@ -74,14 +76,17 @@ public class Principal {
 							t.agregar(p);
 							
 							//b) Instanciando directamente el producto
-							t.agregar(new Producto (nombre, precioFabrica, seccion, enVenta));
+							//t.agregar(new Producto (nombre, precioFabrica, seccion, enVenta));
 							break;
 						
-						case 2:
+						case 2: 
+								t.mostrarProductos();
 							
 							break;
 							
-			
+						case 3:
+							
+							break;
 			
 			
 			
@@ -99,10 +104,4 @@ public class Principal {
 		
 		
 	}
-
-	private static void agregar(Producto p) {
-		// TODO Auto-generated method stub
-		
 	}
-
-}

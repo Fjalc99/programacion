@@ -64,6 +64,12 @@ public class Tienda {
 		
 	}
 	
+	public void mostrarProductos() {
+		for (int i = 0; i < numProductos; i++) {
+			System.out.println(listado[i]);
+		}
+		
+	}
 	
 	
 }
