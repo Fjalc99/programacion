@@ -43,7 +43,7 @@ public class Principal {
 		System.out.println("Hola, gestionamos productos");
 		System.out.println("Pulse 1 para agregar un nuevo producto");
 		System.out.println("Pulse 2 para mostrar lista");
-		System.out.println("Pulse 3 para buscar el producto");
+		System.out.println("Pulse 3 para buscar por seccion");
 		System.out.println("Pulse 0 para salir ");
 		op=Leer.datoInt();
 		
@@ -85,6 +85,9 @@ public class Principal {
 							break;
 							
 						case 3:
+							System.out.println("Diga sección a ver");
+							seccion=Leer.datoInt();
+							t.mostrarLista(t.buscarBySeccion(seccion));
 							
 							break;
 			

@@ -71,5 +71,33 @@ public class Tienda {
 		
 	}
 	
+	public void mostrarLista(Producto [] lista) {
+		for (int i = 0; i < lista.length; i++) {
+			if (lista[i] !=null) {
+				System.out.println(lista[i]);
+			}
+		}
+	}
+		
+		
+	 public Producto [] buscarBySeccion (int seccion) {
+		 
+		 int i = 0;
+		 Producto [] listaEncontrados=new Producto [numProductos];
+		 
+		while(i<numProductos) {
+			if(listado[i].getSeccion()==seccion) {
+				listaEncontrados[i]=listado[i];
+			}
+			i++;
+		}
+		return listaEncontrados;
+	 }
+	 
 	
+	public double calcularPVP () {
+		
+	}
+	 
+	 
 }
