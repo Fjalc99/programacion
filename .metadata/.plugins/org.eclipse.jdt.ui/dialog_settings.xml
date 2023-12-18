@@ -12,7 +12,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewPackageWizardPage">
-		<item key="create_package_info_java" value="false"/>
+		<item key="create_package_info_java" value="true"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
@@ -72,5 +72,88 @@
 		<item key="DIALOG_WIDTH" value="516"/>
 		<item key="DIALOG_HEIGHT" value="691"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-17\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="true"/>
+		<item key="source" value="17"/>
+		<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\calculadora\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\calculadora\doc"/>
+		<item key="vmparam" value="-encoding utf8 -docencoding utf8 -charset utf8"/>
+		<section name="projects">
+			<section name="tema2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\tema2\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\tema2\javadoc.xml"/>
+			</section>
+			<section name="calculadora">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\calculadora\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\calculadora\javadoc.xml"/>
+			</section>
+			<section name="EjemploCrud">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrud\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrud\javadoc.xml"/>
+			</section>
+			<section name="Ejemplodebugger">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\Ejemplodebugger\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\Ejemplodebugger\javadoc.xml"/>
+			</section>
+			<section name="ExamenUD2FranciscoJoseAlcantarillaCalado">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ExamenUD2FranciscoJoseAlcantarillaCalado\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ExamenUD2FranciscoJoseAlcantarillaCalado\javadoc.xml"/>
+			</section>
+			<section name="ejemplostema2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemplostema2\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemplostema2\javadoc.xml"/>
+			</section>
+			<section name="ejerciciosTema3">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema3\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema3\javadoc.xml"/>
+			</section>
+			<section name="repaso">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\repaso\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\repaso\javadoc.xml"/>
+			</section>
+			<section name="EjerciciosUD1Parte2FranciscoAlcantarilla">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte2FranciscoAlcantarilla\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte2FranciscoAlcantarilla\javadoc.xml"/>
+			</section>
+			<section name="EjerciciosUD2FranciscoJoseAlcantarilla">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD2FranciscoJoseAlcantarilla\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD2FranciscoJoseAlcantarilla\javadoc.xml"/>
+			</section>
+			<section name="EjerciciosUD1Parte1FranciscoAlcantarilla">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte1FranciscoAlcantarilla\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte1FranciscoAlcantarilla\javadoc.xml"/>
+			</section>
+			<section name="ejemploTema3">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemploTema3\doc"/>
+				<item key="antpath" value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemploTema3\javadoc.xml"/>
+			</section>
+		</section>
 	</section>
 </section>

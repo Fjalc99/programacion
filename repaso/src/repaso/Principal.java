@@ -156,7 +156,7 @@ public class Principal {
 							break;
 							
 						case 9:
-							t.mostrarProductosActivos();
+							t.mostrarProductosActivos(); 
 							break;
 							
 			
