@@ -2,6 +2,7 @@ package repaso;
 
 import java.util.Arrays;
 
+
 //En las clases que no sea la principal solo van metodos y atributos 
 //y siempre llevan el private 
 
@@ -68,9 +69,15 @@ public class Tienda {
 		for (int i = 0; i < numProductos; i++) {
 			System.out.println(listado[i]);
 		}
-		
 	}
-	
+		
+		public void mostrarProductosActivos() {
+			for (int i = 0; i < numProductos; i++) {
+				if(listado[i].isEnVenta()) {
+					System.out.println(listado[i]);
+				}
+			}
+	}
 	public void mostrarLista(Producto [] lista) {
 		for (int i = 0; i < lista.length; i++) {
 			if (lista[i] !=null) {
@@ -95,9 +102,92 @@ public class Tienda {
 	 }
 	 
 	
-	public double calcularPVP () {
+	public int buscarById (int id) {
+		boolean encontrado = false;
+		int i=0;
+		
+		while (i<numProductos && !encontrado) {
+			if(listado[i].getId()==id) {
+				encontrado = true;
+			}else {
+				
+				i++;
+			}
+		}
+		if(encontrado) {
+			return i;
+			
+		}else {
+			return -1;
+		}
 		
 	}
 	 
-	 
+	public Producto buscarByIdV2 (int id) {
+		boolean encontrado = false;
+		int i=0;
+		
+		while (i<numProductos && !encontrado) {
+			if(listado[i].getId()==id) {
+				encontrado = true;
+			}else {
+				
+				i++;
+			}
+		}
+		if(encontrado) {
+			return listado [i];
+			
+		}else {
+			return null;
+		}
+		
+	}
+	
+	public double calcularPreciofinal (double ganancia, int id) {
+		double cien = 100.0;
+		Producto p; 
+		p=buscarByIdV2(id);
+
+		
+		return p.getPrecioFabrica() + p.getPrecioFabrica() * ganancia/cien;
+	}
+	
+	public void modificarPrecioSeccion (double nuevoPrecio, int seccion) {
+		//buscarBySeccion(seccion);
+		for (int i = 0; i < numProductos; i++) {
+			if(listado [i].getSeccion()==seccion) {
+				listado[i].setPrecioFabrica(i);
+			}
+			
+		}
+		
+	}
+	
+	public double hacerDescuento (double descuento, double ganancia, int id) {
+		double cien = 100.0;
+		//double resul=0.0;
+		return calcularPreciofinal(ganancia, id) - calcularPreciofinal(ganancia, id) * descuento/cien;
+		
+	
+		
+	}
+	//Devuelve el numero de elementos "eliminados" de la lista 
+	public int eliminarSeccion (int seccion) {
+		int contador=0;
+		for (int i = 0; i < numProductos; i++) {
+			if(listado [i].getSeccion()==seccion) {
+				listado[i].setEnVenta(false);
+				contador++;
+			}
+		}return contador;
+	
+}
+	
+	
+	
+	
+	
+	
+	
 }

@@ -22,13 +22,14 @@ public class Principal {
 		//El tostring hace que podamos imprimir el atributo que esta en el , si lo pedimos sin el toString imprimiria el espacio de memoria
 		System.out.println(p);*/
 		
-		int op=0, lecturaVenta = 0;
+		int op=0, lecturaVenta = 0, id = 0, idLeido;
 		
 		String nombre;
-		double precioFabrica;
+		double precioFabrica, ganancia=0, nuevoPrecio=0, descuento=0;
 		int seccion;
 		boolean enVenta;
 		int tam=0, tam2=10;
+		
 		
 		Producto p;
 		//Productos de prueba
@@ -37,6 +38,7 @@ public class Principal {
 		
 		Producto [] lista=new Producto [tam2];
 		Tienda t=new Tienda(lista, tam, 3);
+		id=4;
 		
 		
 		do {
@@ -44,6 +46,12 @@ public class Principal {
 		System.out.println("Pulse 1 para agregar un nuevo producto");
 		System.out.println("Pulse 2 para mostrar lista");
 		System.out.println("Pulse 3 para buscar por seccion");
+		System.out.println("Pulse 4 para buscar por Id");
+		System.out.println("Pulse 5 para calcular el PVP");
+		System.out.println("Pulse 6 para modificar precios de fabrica de una seccion");
+		System.out.println("Pulse 7 para calcular descuento");
+		System.out.println("Pulse 8 para borrar seccion");
+		System.out.println("Pulsa 9 para mostrar productos activos");
 		System.out.println("Pulse 0 para salir ");
 		op=Leer.datoInt();
 		
@@ -72,7 +80,8 @@ public class Principal {
 							//Dos formas
 							//a) Creando el producto antes
 							
-							p=new Producto(nombre, precioFabrica, seccion, enVenta);
+							p=new Producto(nombre, precioFabrica, seccion, enVenta, id);
+							id++;
 							t.agregar(p);
 							
 							//b) Instanciando directamente el producto
@@ -90,8 +99,66 @@ public class Principal {
 							t.mostrarLista(t.buscarBySeccion(seccion));
 							
 							break;
-			
-			
+							
+						case 4:
+							
+							System.out.println("Diga el id");
+							idLeido=Leer.datoInt();
+							p=t.buscarByIdV2(idLeido);
+							
+							
+							if(p==null)
+							{
+								System.out.println("Producto no encontrado");
+							}else {
+								System.out.println(p);
+							}
+							System.out.println(t.buscarByIdV2(idLeido));
+							
+							break;
+							
+							
+						case 5:
+							System.out.println("Diga el id del producto que quiere modificar");
+							idLeido=Leer.datoInt();
+							System.out.println("Diga el porcentaje de ganancia");
+							ganancia=Leer.datoDouble();
+							System.out.printf("El precio de venta es: %.2f \n", t.calcularPreciofinal(ganancia, idLeido));
+							
+							break;
+							
+						case 6:
+							System.out.println("Diga sección a modificar");
+							seccion=Leer.datoInt();
+							
+							System.out.println("Diga nuevo precio");
+							nuevoPrecio=Leer.datoDouble();
+							t.modificarPrecioSeccion(nuevoPrecio, seccion);
+							break;
+							
+							
+						case 7:
+							 System.out.println("Diga el descuento");
+							 descuento=Leer.datoDouble();
+							 System.out.println("Diga la ganancia");
+							 ganancia=Leer.datoDouble();
+							 System.out.println("Diga el id del producto a modificar");
+							 idLeido=Leer.datoInt();
+							 System.out.printf("El precio con descuento"+ "es: %.2f euros\n\n", t.hacerDescuento(descuento, ganancia, idLeido));
+							 
+							 break;
+							 
+						case 8: 
+								
+							System.out.println("Diga qué sección quiere eliminar");
+							seccion=Leer.datoInt();
+							System.out.println("Se han eliminado" + t.eliminarSeccion(seccion) + "Productos");
+							break;
+							
+						case 9:
+							t.mostrarProductosActivos();
+							break;
+							
 			
 			}
 			
