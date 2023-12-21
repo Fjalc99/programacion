@@ -2,6 +2,7 @@ package examentipoA;
 
 import java.util.Arrays;
 
+
 public class Inmobiliaria {
 
 	private int numVendedores;
@@ -58,7 +59,14 @@ public class Inmobiliaria {
 		return "Inmobiliaria [numVendedores=" + numVendedores + ", listado=" + Arrays.toString(listado) + ", numPisos="
 				+ numPisos + "]";
 	}
-
+	public void mostrarPisos(Piso [] lista) {
+		for (int i = 0; i < lista.length; i++) {
+			if (lista[i] !=null) {
+				System.out.println(lista[i]);
+			}
+		}
+	}
+		
 
 
 	public void agregarPisos(Piso p) {
@@ -66,6 +74,28 @@ public class Inmobiliaria {
 		numPisos++;
 	}
 	
+	
+	public int buscarById (int id) {
+		boolean encontrado = false;
+		int i=0;
+		
+		while (i<numPisos && !encontrado) {
+			if(listado[i].getId()==id) {
+				encontrado = true;
+			}else {
+				
+				i++;
+			}
+		}
+		if(encontrado) {
+			return i;
+			
+		}else {
+			return -1;
+		}
+		
+	}
+	 
 	
 	
 	
