@@ -25,6 +25,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\calculadora"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\ExamUD3FranciscoJoséAlcantarillaCalado"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\Work-programacion\EjerciciosUD2FranciscoJoseAlcantarilla\src"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\Work-programacion\EjerciciosUD2FranciscoJoseAlcantarilla"/>
@@ -35,5 +36,10 @@
 			<item value="C:\Users\alcantarilla.cafra24\Downloads\ejemplostema2"/>
 			<item value="C:\Users\alcantarilla.cafra24\Downloads\tema2"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
 	</section>
 </section>
