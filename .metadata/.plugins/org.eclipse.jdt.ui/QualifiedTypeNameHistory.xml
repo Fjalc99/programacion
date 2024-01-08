@@ -3,6 +3,6 @@
     <fullyQualifiedTypeName name="model.Producto"/>
     <fullyQualifiedTypeName name="crud.CrudProducto"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="utilidades.Leer"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
 </qualifiedTypeNameHistroy>
