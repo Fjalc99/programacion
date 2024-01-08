@@ -50,10 +50,5 @@ public class CuentaCorriente {
 		return saldo;
 		
 	}
-	public double convertirSaldoDolares (double convEurDol) {
-		
-		
-		
-		
-	}
+	
 }
