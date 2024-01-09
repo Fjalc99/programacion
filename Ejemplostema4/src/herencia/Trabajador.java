@@ -65,5 +65,9 @@ public class Trabajador {
 		return 0.0;
 	}
 	
+	//Esto es otra cosa diferente a la de arriba
+	public double  calcularPagaV2 (double fijo) {
+		return fijo;
+	}
 	
 }

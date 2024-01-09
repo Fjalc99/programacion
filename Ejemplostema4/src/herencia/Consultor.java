@@ -43,5 +43,15 @@ public class Consultor extends Trabajador {
 		return tarifa*horas;
 	}
 	
-
+	public double calcularPagaV2 (double fijo) {
+		
+		return  tarifa * horas;
+	}
+	
+	public void avisarExtras() {
+		if (horas>40) {
+			System.out.println("Ha pasado de las horas permitidas");
+		}
+		
+	}
 }

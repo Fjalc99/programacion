@@ -48,4 +48,12 @@ public class Empleado extends Trabajador {
 		
 	}
 	
+	//Si la madre tiene un parametro aunque a la hija no le haga falta hay que pasarselo porque tienen que tener la misma firma
+	public double calcularPagaV2(double fijo) {
+		double cien=100;
+		double total=0.0;
+		total= super.calcularPagaV2(fijo) + sueldo - sueldo * impuestos/cien;
+ 		return total;
+	}
+	
 }
