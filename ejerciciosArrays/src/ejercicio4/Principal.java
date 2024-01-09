@@ -1,6 +1,6 @@
 package ejercicio4;
 
-import java.util.Iterator;
+
 import java.util.Random;
 
 import utilidades.Leer;
