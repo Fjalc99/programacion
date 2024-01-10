@@ -32,6 +32,9 @@ public class Principal {
 		
 		System.out.println("Diga un número del 1 al 10");
 		posicion=Leer.datoInt();
+		
+		
+		
 		if(posicion >= 1 && posicion <= 10 ) {
 			System.out.println("El numero en la posicion que es ha elegido es "+numeros[posicion-1]);
 		}
