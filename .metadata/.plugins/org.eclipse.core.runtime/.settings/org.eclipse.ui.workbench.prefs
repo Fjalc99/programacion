@@ -1,16 +1,11 @@
 =\=\=\=\=\=\=
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 //org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
-<<<<<<< HEAD
-PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
-eclipse.preferences.version=1
-=======
 <<<<<<<=HEAD
->>>>>>>=ca5983eabf98bb5d54129cae6b684cde98d0c48d
+>>>>>>>=b5de5ae26e71d632ab9b7335108911ed75df72fe
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
->>>>>>> b5de5ae26e71d632ab9b7335108911ed75df72fe
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.zoomIn" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+ARROW_UP"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL++"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL++"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.zoomIn" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+ARROW_UP"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+-"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+-"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.zoomOut" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+ARROW_DOWN"/>\r\n</org.eclipse.ui.commands>
 org.eclipse.ui.ide.systemDefault.CONFLICTING_COLOR=240,15,66
 org.eclipse.ui.ide.systemDefault.CONTENT_ASSIST_BACKGROUND_COLOR=52,57,61
