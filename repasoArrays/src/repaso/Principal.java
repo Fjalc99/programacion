@@ -48,7 +48,7 @@ public class Principal {
 				
 				case 2:
 					
-					System.out.println("Semana \t\t Monedas"+ monedas[tam]);
+					System.out.println("Semana \t\t Monedas");
 					
 				
 				case 3:

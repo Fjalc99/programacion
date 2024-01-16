@@ -18,7 +18,7 @@ public class Principal {
 		 * • Mostrar el mayor y el menor guardados en el array. 
 		 * • Modificar un valor elegido por el usuario. */
 
-		int tam = 0, posicion=0, leerNum;
+		int tam = 0, posicion=0, leerNum, op=0;
 		int hasta = 0, desde = 0, suma = 0, numMayor = 0, numMenor=0;
 		int numeros[];
 
@@ -28,6 +28,35 @@ public class Principal {
 		tam = Leer.datoInt();
 
 		numeros = new int[tam];
+		
+		
+		
+		switch(op) {
+		case 1:
+
+			System.out.println("Diga el número para empezar");
+			desde = Leer.datoInt();
+
+			System.out.println("Diga el número hasta que llega ");
+			hasta = Leer.datoInt();
+			for (int i = 0; i < numeros.length; i++) {
+				numeros[i] = r.nextInt(hasta - desde + 1) + desde;
+			}
+			
+			break;
+			
+		case 2:
+			
+			for (int i = 0; i < numeros.length; i++) {
+				suma += numeros[i];
+			}
+			System.out.println("La suma de los números es de " + suma);
+			
+		}
+		
+		
+		
+		
 
 		System.out.println("Diga el número para empezar");
 		desde = Leer.datoInt();

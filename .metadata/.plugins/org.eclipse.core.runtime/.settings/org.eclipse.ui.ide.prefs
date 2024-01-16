@@ -2,6 +2,10 @@
 <<<<<<<=HEAD
 >>>>>>>=b5de5ae26e71d632ab9b7335108911ed75df72fe
 eclipse.preferences.version=1
+<<<<<<< HEAD
+platformState=1698999190180
+=======
 platformState=1687769606161
+>>>>>>> d3a2e523cf262f60de91ab00c8e1076aaff63405
 quickStart=false
 tipsAndTricks=true
