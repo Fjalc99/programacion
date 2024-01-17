@@ -4,6 +4,9 @@
     <fullyQualifiedTypeName name="crud.CrudProducto"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="utilidades.Leer"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.lang.System"/>
+=======
+>>>>>>> b79faf0118117684c7dc418cedc4ac694af60562
     <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
