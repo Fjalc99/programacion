@@ -1,56 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-		</list>
-	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="676"/>
-		<item key="DIALOG_Y_ORIGIN" value="341"/>
-	</section>
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
-	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-<<<<<<< HEAD
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\repasoArrays"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\repaso"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ExamenUD2FranciscoJoseAlcantarillaCalado"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Examen3tipoA"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjerciciosUD2Parte1FranciscoAlcantarilla"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Ejemplostema4"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosArrays"/>
-=======
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\repasoArrays"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosArrays"/>
->>>>>>> b5de5ae26e71d632ab9b7335108911ed75df72fe
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\calculadora"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\tema2"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD2FranciscoJoseAlcantarilla"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte2FranciscoAlcantarilla"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjerciciosUD1Parte1FranciscoAlcantarilla"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemploTema3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemplostema2"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrudAngel"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrud"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\Ejemplodebugger"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Tema2Ejercicios"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\tema2"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjerciciosUD2FranciscoJoseAlcantarilla"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjerciciosUD1Parte2FranciscoAlcantarilla"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjerciciosUD1Parte1FranciscoAlcantarilla"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemploTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemplostema2"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Ejemplodebugger"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 </section>
