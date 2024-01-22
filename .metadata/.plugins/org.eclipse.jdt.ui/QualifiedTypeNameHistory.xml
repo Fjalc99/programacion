@@ -3,6 +3,14 @@
     <fullyQualifiedTypeName name="model.Producto"/>
     <fullyQualifiedTypeName name="crud.CrudProducto"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
+<<<<<<< HEAD
+    <fullyQualifiedTypeName name="java.lang.System"/>
+=======
+>>>>>>> b79faf0118117684c7dc418cedc4ac694af60562
+>>>>>>> d0564777d1a19dde2a52b539d0bea6f6e64d9347
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="ejercicio1.CabeceraExam"/>
     <fullyQualifiedTypeName name="utilidades.Leer"/>
