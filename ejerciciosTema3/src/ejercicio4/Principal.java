@@ -9,7 +9,7 @@ public class Principal {
 
 		double radio, altura;
 		
-		Cilindro c = new Cilindro (); 
+		Cilindro c ;
 		
 		System.out.println("Diga el radio ");
 		radio=Leer.datoDouble();
@@ -17,7 +17,9 @@ public class Principal {
 		System.out.println("Diga la altura");
 		altura=Leer.datoDouble();
 		
-		c.calculaVolumen(radio, altura);
+		c = new Cilindro (radio, altura); 
+		
+		c.mostrarVolumen();
 		
 		
 	}

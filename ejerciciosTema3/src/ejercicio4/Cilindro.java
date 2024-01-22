@@ -1,8 +1,17 @@
 package ejercicio4;
 
 public class Cilindro {
+	
+	private double altura, radio;
+	
 
-	public double calculaVolumen ( double altura, double radio) {
+	public Cilindro(double altura, double radio) {
+
+		this.altura = altura;
+		this.radio = radio;
+	}
+
+	public double calculaVolumen () {
 		
 		double volumen=0;
 		int dos=2;
@@ -12,7 +21,8 @@ public class Cilindro {
 	
 	public void mostrarVolumen () {
 		
-		calculaVolumen(0, 0);
+		System.out.println("El volumen es "+calculaVolumen());
+		
 		
 	}
 	

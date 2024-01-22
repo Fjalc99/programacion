@@ -8,8 +8,8 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		String copiar;
-		int numero = 0;
-		Copiado cop;
+		int numero;
+		Copiado cop = new Copiado();
 		
 		System.out.println("Diga su frase a copiar"); 
 		copiar=Leer.dato();
@@ -17,10 +17,11 @@ public class Principal {
 		System.out.println("Indique el numero de veces");
 		numero=Leer.datoInt();
 		
-		cop=new Copiado (copiar,numero);
-		cop.mostrarFrase(copiar);
+		cop.repetirFrase(copiar, numero);
 		
-		System.out.println(cop.repetirFrase());
+		
+		
+		
 		
 
 	}
