@@ -20,7 +20,7 @@ public class Principal {
 		cop=new Copiado (copiar,numero);
 		cop.mostrarFrase(copiar);
 		
-		System.out.println();
+		System.out.println(cop.repetirFrase());
 		
 
 	}

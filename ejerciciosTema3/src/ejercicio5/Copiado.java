@@ -22,5 +22,8 @@ public class Copiado {
 	return copiar;
 	}
 	
-	public void mostrarFrase (String copiar){}	
+	public void mostrarFrase (String copiar){
+		repetirFrase();
+	}	
+	
 }
