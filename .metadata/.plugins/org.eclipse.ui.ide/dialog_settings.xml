@@ -6,7 +6,32 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\Examen3tipoA"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosTema4"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosTema3"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosArrays"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejercicioRepaso"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemplostema2"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemploTema3"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemploPolimorfismo"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploInterfaces"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploCrud"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\Ejemplostema4"/>
+			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploCrudAngel"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema3"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="676"/>
+		<item key="DIALOG_Y_ORIGIN" value="341"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 </section>

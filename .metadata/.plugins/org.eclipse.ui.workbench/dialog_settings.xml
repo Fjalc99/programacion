@@ -25,6 +25,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Fran\Desktop\ExamUD3FranciscoManuelGamero"/>
 			<item value="C:\Users\Fran\Desktop\EjercicioUD2Parte2CandidaAlcantarilla"/>
 			<item value="C:\Users\Fran\Desktop\programacion\programacion\calculadora"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\ExamUD3FranciscoJoséAlcantarillaCalado"/>
