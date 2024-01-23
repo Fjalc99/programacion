@@ -379,14 +379,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2024-01-23 18:05:42.316 -----------------------------------------------
 eclipse.buildId=4.28.0.20230608-1200
 java.version=17.0.7
+=======
+!SESSION 2024-01-23 12:43:21.690 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8
+>>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.emf.ecore 2 0 2024-01-23 18:05:44.595
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
@@ -431,6 +438,20 @@ java.io.FileNotFoundException: /css/gef_dark.css
 !ENTRY org.eclipse.jface 2 0 2024-01-23 18:06:11.843
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2024-01-23 18:06:11.843
+=======
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-23 12:43:25.932
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-23 12:43:26.182
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-23 12:43:32.641
+!MESSAGE Logback config file: C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-01-23 12:43:34.327
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-23 12:43:34.327
+>>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -449,6 +470,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2024-01-23 18:06:16.567
 !MESSAGE Unable to create part
 !STACK 1
@@ -1302,6 +1324,11 @@ java.lang.NumberFormatException: For input string: "or" under radix 16
 !ENTRY org.eclipse.jface 2 0 2024-01-23 18:13:27.264
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2024-01-23 18:13:27.264
+=======
+!ENTRY org.eclipse.jface 2 0 2024-01-23 12:43:38.614
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-23 12:43:38.614
+>>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
 !MESSAGE A conflict occurred for CTRL+ARROW_DOWN:
 Binding(CTRL+ARROW_DOWN,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.text.scroll.lineDown,Scroll Line Down,
@@ -1327,3 +1354,13 @@ Binding(CTRL+ARROW_DOWN,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,user)
+<<<<<<< HEAD
+=======
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-23 12:43:39.258
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alcantarilla.cafra24'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
