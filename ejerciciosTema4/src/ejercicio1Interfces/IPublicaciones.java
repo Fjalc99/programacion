@@ -2,7 +2,7 @@ package ejercicio1Interfces;
 
 public interface IPublicaciones {
 
-		int cuentaPrestados();
-		int publicacionesAnterioresA();
+		int cuentaPrestados(Publicaciones [] lista);
+		int publicacionesAnterioresA(Publicaciones [] lista, int anyo);
 	
 }

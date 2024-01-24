@@ -9,6 +9,8 @@ public class Principal {
 		int tam=4;
 		Publicaciones [] lista = new Publicaciones[tam];
 		
+		
+		
 	}
 
 }

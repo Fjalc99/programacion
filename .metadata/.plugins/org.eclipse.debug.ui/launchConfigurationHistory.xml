@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchHistory>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
-<<<<<<< HEAD
-        <mruHistory/>
-=======
         <mruHistory>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (5)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (4)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (26)&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (21)&quot;/&gt;&#13;&#10;"/>
         </mruHistory>
->>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.profile">
@@ -17,15 +11,9 @@
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.eclemma.ui.launchGroup.coverage">
-<<<<<<< HEAD
-        <mruHistory/>
-=======
         <mruHistory>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (5)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (4)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (26)&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (21)&quot;/&gt;&#13;&#10;"/>
         </mruHistory>
->>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.ui.externaltools.launchGroup">
@@ -33,15 +21,9 @@
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
-<<<<<<< HEAD
-        <mruHistory/>
-=======
         <mruHistory>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (5)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (4)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (26)&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Principal (21)&quot;/&gt;&#13;&#10;"/>
         </mruHistory>
->>>>>>> 29c180439ad9ab675fb7843d07f9c668f8c3dedd
         <favorites/>
     </launchGroup>
 </launchHistory>

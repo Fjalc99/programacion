@@ -15,6 +15,8 @@ public class Principal {
 		Piso p;
 		
 		Piso [] lista=new Piso[tam2];
+		
+		lista[0] = new Piso("a",1,1,1.0,4);
 		Inmobiliaria t=new Inmobiliaria(tam, lista, 3); 
 		id=4;
 		
@@ -75,7 +77,7 @@ public class Principal {
 			case 4:
 				System.out.println("Diga sección a ver");
 				estado=Leer.datoInt();
-				t.mostrarPisos(t.buscarByEstado(estado));;
+				t.mostrarPisos(t.buscarByEstado(estado));
 				
 				break;
 				
