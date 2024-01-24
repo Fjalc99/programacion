@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
     <fullyQualifiedTypeName name="ejercicio1Interfces.Publicaciones"/>
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
+    <fullyQualifiedTypeName name="ejercicio8.CuentaCorriente"/>
 </qualifiedTypeNameHistroy>
