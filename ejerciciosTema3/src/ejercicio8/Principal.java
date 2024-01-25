@@ -10,7 +10,7 @@ public class Principal {
 		double dinRet, dinIng, saldo=0, dolarAmericano=1.09;
 		int opcion;
 
-		CuentaCorriente c = new CuentaCorriente("Fran", saldo);
+		CuentaCorriente c = new CuentaCorriente( "Marisa", saldo);
 
 		System.out.println("Bienvenido al programa");
 		

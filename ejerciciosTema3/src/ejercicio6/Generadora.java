@@ -33,14 +33,16 @@ public class Generadora {
 		}else{
 			resultado=false;
 		}
-		return resultado;
-		
-		
-		
-		
+		return resultado;	
+
 	}
 		
+	public void mostrarPrimitiva (int hasta , int desde) {
 		
+			
+			System.out.println("El número es "+generarPrimitiva(hasta, desde));
+		
+	}
 		
 	
 	}
