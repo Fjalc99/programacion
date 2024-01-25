@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="Correccion"/>
+	</list>
 	<section name="NewWizardAction">
 	</section>
 	<section name="ImportExportAction">
@@ -25,6 +28,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ExamenPisosCorreccion"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ExamenPisosCorreccion"/>
 			<item value="C:\Users\Fran\Desktop\ExamUD3FranciscoManuelGamero"/>
 			<item value="C:\Users\Fran\Desktop\EjercicioUD2Parte2CandidaAlcantarilla"/>

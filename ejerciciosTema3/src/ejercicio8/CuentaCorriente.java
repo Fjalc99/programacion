@@ -46,9 +46,23 @@ public class CuentaCorriente {
 	
 	public double retirarDinero (double dinRet) {
 		
-		saldo=saldo-dinRet;
+		if(saldo > dinRet) {
+			saldo=saldo-dinRet;
+		}
+		
 		return saldo;
 		
+	}
+	
+	public double cambioADolar (double dolarAmericano) {
+		
+		saldo = saldo*dolarAmericano;
+		return saldo;
+	}
+	
+	public void mostrarSaldo() {
+		
+		System.out.printf("El sueldo acualizado es de %.2f\n",getSaldo());
 	}
 	
 }

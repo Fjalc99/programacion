@@ -80,9 +80,8 @@ public class Inmobiliaria {
  public Piso [] buscarByEstado (int estado) {
 		 
 		 int i = 0;
-		 Piso [] listaEncontrados=new Piso [numPisos];
-		 
-		while(i<numPisos) {
+		 Piso [] listaEncontrados=new Piso [numPisos];	 
+		while(i>numPisos) {
 			if(listado[i].getEstado()==estado) {
 				listaEncontrados[i]=listado[i];
 			}
