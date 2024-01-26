@@ -77,7 +77,7 @@ public class Principal {
 			case 4:
 				System.out.println("Diga sección a ver");
 				estado=Leer.datoInt();
-				t.mostrarPisos(t.buscarByEstado(estado));
+				System.out.println(t.buscarByEstado(estado));
 				
 				break;
 				
