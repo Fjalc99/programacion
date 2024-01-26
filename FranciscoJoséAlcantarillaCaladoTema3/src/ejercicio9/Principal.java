@@ -34,7 +34,7 @@ public class Principal {
 
 			case 1:
 				System.out.println("Introduzca el numero que desea escoger");
-				System.out.println("##############################################################");
+				
 				numLoteria = Leer.datoInt();
 				if (numLoteria >= desde && numLoteria <= hasta) {
 					System.out.println("Su número de la loteria es " + numLoteria);
