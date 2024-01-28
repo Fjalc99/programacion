@@ -77,17 +77,26 @@ public class Inmobiliaria {
 		}
 	}
 		
- public Piso [] buscarByEstado (int estado) {
+ public Piso  buscarByEstado (int estado) {
 		 
 		 int i = 0;
-		 Piso [] listaEncontrados=new Piso [numPisos];	 
-		while(i>numPisos) {
+		 boolean encontrado = false;
+		
+		while(i>numPisos &&! encontrado) {
 			if(listado[i].getEstado()==estado) {
-				listaEncontrados[i]=listado[i];
+				encontrado = true;
 			}
-			i++;
+			else {
+				i++;
+			}
+			
 		}
-		return listaEncontrados;
+		if (encontrado) {
+			return listado[i];
+		}
+		else {
+			return null;
+		}
 	 }
 	 
 	
