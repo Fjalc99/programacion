@@ -1,6 +1,22 @@
+<<<<<<< HEAD
+INDEX VERSION 1.134+C:\Users\Fran\Desktop\programacion\.metadata\.plugins\org.eclipse.jdt.core
+819299005.index
+807083518.index
+557888064.index
+365857294.index
+2069716096.index
+2343182253.index
+3744714303.index
+1603973980.index
+673268610.index
+=======
 INDEX VERSION 1.134+C:\Users\alcantarilla.cafra24\Desktop\programacion\.metadata\.plugins\org.eclipse.jdt.core
+<<<<<<< HEAD
 1572875585.index
 557888064.index
+=======
+>>>>>>> a93546f64b623ee78cd6abf03e6643843f5ca5b3
+>>>>>>> 52375b495e6586f9df3abcba4026c48a95d2d4c4
 1865797976.index
 807083518.index
 1603973980.index
