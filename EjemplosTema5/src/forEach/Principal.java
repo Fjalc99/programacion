@@ -14,7 +14,7 @@ public class Principal {
 			
 			System.out.println((i)); 
 			//Valor se refiere al valor guardado en el array y no el indice como en los bucles normales. 
-			//numeros es el nombre del array
+			//numeros es el nombre del array.
 		}
 		
 		System.out.println("La suma es: "+suma);
