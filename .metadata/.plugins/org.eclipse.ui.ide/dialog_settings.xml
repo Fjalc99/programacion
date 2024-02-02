@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 			<item value="C:\Users\Fran\Desktop\programacion\repasoArrays"/>
 			<item value="C:\Users\Fran\Desktop\programacion\Examen3tipoA"/>
 			<item value="C:\Users\Fran\Desktop\programacion\ejerciciosTema3"/>
@@ -17,6 +18,9 @@
 			<item value="C:\Users\Fran\Desktop\programacion\EjemploInterfaces"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemploCrud"/>
 			<item value="C:\Users\Fran\Desktop\programacion\correccionExamenT3"/>
+=======
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemplosTema5"/>
+>>>>>>> f9ee418cca3f2ad1e36bd5b98fa19a7a68abbfae
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\repasoExamen3"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ExamenPisosCorreccion"/>
 			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ExamenArrays"/>
