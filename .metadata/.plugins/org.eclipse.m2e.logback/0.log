@@ -69,3 +69,7 @@
 2024-02-02 10:12:20,820 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5877a9e7{/wse,null,AVAILABLE}
 2024-02-02 10:12:20,838 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@36813933{HTTP/1.1, (http/1.1)}{0.0.0.0:51960}
 2024-02-02 10:12:20,852 [main] INFO  org.eclipse.jetty.server.Server - Started Server@1ecb3cde{STARTING}[10.0.15,sto=0] @299461ms
+2024-02-02 12:32:00,449 [Framework stop - Equinox Container: 0ea53012-388f-40bf-b199-15ee22f03fd9] INFO  org.eclipse.jetty.server.Server - Stopped Server@1ecb3cde{STOPPING}[10.0.15,sto=0]
+2024-02-02 12:32:00,451 [Framework stop - Equinox Container: 0ea53012-388f-40bf-b199-15ee22f03fd9] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@36813933{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2024-02-02 12:32:00,479 [Framework stop - Equinox Container: 0ea53012-388f-40bf-b199-15ee22f03fd9] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5877a9e7{/wse,null,STOPPED}
+2024-02-05 10:07:39,318 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

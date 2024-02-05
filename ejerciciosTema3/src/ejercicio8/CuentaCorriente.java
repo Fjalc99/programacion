@@ -56,8 +56,8 @@ public class CuentaCorriente {
 	
 	public double cambioADolar (double dolarAmericano) {
 		
-		saldo = saldo*dolarAmericano;
-		return saldo;
+		 
+		return saldo*dolarAmericano;
 	}
 	
 	public void mostrarSaldo() {

@@ -10,19 +10,24 @@ public class Principal {
 
 		List<Persona> lista = new ArrayList<Persona>();
 
-		Persona p = new Persona(34, "Fran");
-		Persona p1 = new Persona(26, "Marissa");
-		Persona p2 = new Persona(18, "Candi");
+		CrudPersona c = new CrudPersona(lista);
+		Persona p = new Persona(34, "Fran","14587269L");
+		Persona p1 = new Persona(26, "Marissa","458712368F");
+		Persona p2 = new Persona(18, "Candi","147852987R");
 
 		lista.add(p);
-		lista.add(p1);
-		lista.add(p2);
-
-		System.out.println(lista.isEmpty());
+		lista.add(p);
+		lista.add(new Persona(34, "Fran","14587269L"));
+		lista.add(new Persona(26, "Marissa","458712368F"));
+		lista.add(new Persona(18, "Candi","147852987R"));
+		
+	
 		System.out.println(lista);
-		System.out.println(lista.remove(p));
-		System.out.println(lista);
-		System.out.println(lista.contains(p1));
+		
+		c.imprimirLista();
+		System.out.println("#################");
+		c.borrarPorDni("147852987R");
+		c.imprimirLista();
 
 	}
 

@@ -16,31 +16,26 @@ public class Sorteo {
 
 	public int numSorteo(int desde, int hasta) {
 
-		int numSorteo = 0;
-
-		Random r = new Random(System.nanoTime());
-
-		numSorteo = r.nextInt(hasta - desde + 1) + desde;
-
-		return numSorteo;
+		return numeroMaquina(desde, hasta);
 	}
 
 	public boolean comprobarNumero(int hasta, int desde) {
 
-		boolean premio;
+		
 		if (numSorteo(desde, hasta) == numeroMaquina(desde, hasta)) {
 
-			return premio = true;
+		
+			return true;
 
 		} else {
-			return premio = false;
+			return false;
 
 		}
 	}
 
 	public void mostrarGanador(int hasta, int desde) {
 
-		if (comprobarNumero(hasta, desde) == true) {
+		if (comprobarNumero(hasta, desde)) {
 
 			System.out.println("¡¡¡Has ganado la loteria felicidades!!!");
 		} else {

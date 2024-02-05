@@ -12,10 +12,21 @@ public class CaraCruz {
 		return num;
 	}
 	
-	public void mostrarNum (int desde, int hasta) {
-		
-		System.out.println("El numero es "+generarCaraCruz(desde, hasta));
+	public boolean comprobarCara  (int cara) {
+		if(cara == 1)
+			return true;
+		else 
+			return false;
 	}
+	
+	public void imprimirResultado (int cara) {
+		
+		if(comprobarCara(cara)) 
+			System.out.println("Ha salido cara");
+		else
+			System.out.println("Ha salido cruz");
+	}
+	
 	
 	
 }

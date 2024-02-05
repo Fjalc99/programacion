@@ -4,13 +4,18 @@ public class Persona {
 
 	private int edad;
 	private String nombre;
+	private String dni;
 	
 	
-	public Persona(int edad, String nombre) {
+	public Persona(int edad, String nombre, String dni) {
 		super();
 		this.edad = edad;
 		this.nombre = nombre;
+		this.dni = dni;
 	}
+
+
+
 
 
 	public int getEdad() {
@@ -33,10 +38,32 @@ public class Persona {
 	}
 
 
+
+
+
+	public String getDni() {
+		return dni;
+	}
+
+
+
+
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+
+
+
+
 	@Override
 	public String toString() {
-		return "Persona [edad=" + edad + ", nombre=" + nombre + "]";
+		return "Persona [edad=" + edad + ", nombre=" + nombre + ", dni=" + dni + "]";
 	}
+
+
+	
 	
 	
 }
