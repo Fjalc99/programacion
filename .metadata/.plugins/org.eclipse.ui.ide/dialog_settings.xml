@@ -6,78 +6,18 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-<<<<<<< HEAD
-			<item value="C:\Users\Fran\Desktop\programacion\repasoArrays"/>
 			<item value="C:\Users\Fran\Desktop\programacion\Examen3tipoA"/>
-			<item value="C:\Users\Fran\Desktop\programacion\ejerciciosTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\ejemploTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\Ejemplostema4"/>
-			<item value="C:\Users\Fran\Desktop\programacion\ejemploPolimorfismo"/>
+			<item value="C:\Users\Fran\Desktop\programacion\FranciscoJoséAlcantarillaCaladoTema3"/>
+			<item value="C:\Users\Fran\Desktop\programacion\EjerciciosTema5"/>
 			<item value="C:\Users\Fran\Desktop\programacion\ejerciciosTema4"/>
+			<item value="C:\Users\Fran\Desktop\programacion\ejerciciosTema3"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemplosTema5"/>
+			<item value="C:\Users\Fran\Desktop\programacion\Ejemplostema4"/>
+			<item value="C:\Users\Fran\Desktop\programacion\ejemploTema3"/>
+			<item value="C:\Users\Fran\Desktop\programacion\ejemploPolimorfismo"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemploInterfaces"/>
+			<item value="C:\Users\Fran\Desktop\programacion\EjemploCrudAngel"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemploCrud"/>
-			<item value="C:\Users\Fran\Desktop\programacion\correccionExamenT3"/>
-=======
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemplosTema5"/>
->>>>>>> f9ee418cca3f2ad1e36bd5b98fa19a7a68abbfae
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\repasoExamen3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ExamenPisosCorreccion"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ExamenArrays"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\Examen3tipoA"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejerciciosTema4"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejerciciosTema3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejerciciosArrays"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejercicioRepaso"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejemploTema3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\Ejemplostema4"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejemplostema2"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\ejemploPolimorfismo"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemploInterfaces"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemploCrudAngel"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemploCrud"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\correccionExamenT3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ExamenPisosCorreccion"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\correccionExamenT3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ExamenPisosCorreccion"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ExamenArrays"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\Examen3tipoA"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema4"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosArrays"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejercicioRepaso"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemploTema3"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\Ejemplostema4"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemplostema2"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejemploPolimorfismo"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploInterfaces"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrudAngel"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\EjemploCrud"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Examen3tipoA"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosTema4"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejerciciosArrays"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejercicioRepaso"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemplostema2"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemploTema3"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\ejemploPolimorfismo"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploInterfaces"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploCrud"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\Ejemplostema4"/>
-			<item value="C:\Users\Fran\Desktop\programacion\programacion\EjemploCrudAngel"/>
-			<item value="C:\Users\alcantarilla.cafra24\Desktop\prog\programacion\ejerciciosTema3"/>
-		</list>
-	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="676"/>
-		<item key="DIALOG_Y_ORIGIN" value="341"/>
-	</section>
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
-	</section>
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 </section>
