@@ -6,6 +6,10 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
+>>>>>>> bb8a628993321e3be563d9cf4922d8d8b576af67
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="utilidades.Leer"/>
