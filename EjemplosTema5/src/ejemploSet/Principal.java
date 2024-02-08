@@ -34,9 +34,7 @@ public class Principal {
 		
 		System.out.println(lista);
 		
-		if(lista.contains("1234a")) {
-			lista.remove("1234a");
-		}
+		
 		
 		
 	}

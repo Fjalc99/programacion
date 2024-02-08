@@ -49,4 +49,6 @@
 		<item key="internalFilter" value="true"/>
 		<item key="uncategorizedFilter" value="true"/>
 	</section>
+	<section name="PreferencesImportWizard">
+	</section>
 </section>

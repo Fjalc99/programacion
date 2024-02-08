@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
-    <fullyQualifiedTypeName name="ejercicio1Interfces.Publicaciones"/>
-    <fullyQualifiedTypeName name="ejercicio8.CuentaCorriente"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-<<<<<<< HEAD
-=======
-    <fullyQualifiedTypeName name="utilidades.Leer"/>
->>>>>>> bb8a628993321e3be563d9cf4922d8d8b576af67
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-=======
-    <fullyQualifiedTypeName name="utilidades.Leer"/>
->>>>>>> 59a040b775baf538dc6744433605a4ef6a74ad0d
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
