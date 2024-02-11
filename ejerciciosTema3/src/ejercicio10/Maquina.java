@@ -30,9 +30,15 @@ public class Maquina {
 
 
 
-	public double calcularPrecioBillete(double precio, int numPersonas) {
+	public double calcularPrecioBillete(Ticket t) {
 		
 		
-		return  precio * numPersonas;	
+		return  t.getPrecio() * t.getNumPersonas();	
+	}
+	
+	
+	public double calcularVuelta (double paga) {
+		
+		return paga - calcularPrecioBillete(t);		
 	}
 }
