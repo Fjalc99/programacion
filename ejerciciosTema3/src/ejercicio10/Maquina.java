@@ -41,4 +41,13 @@ public class Maquina {
 		
 		return paga - calcularPrecioBillete(t);		
 	}
+	
+public double calcularVueltaV2 (double paga) {
+		
+		if(paga< calcularPrecioBillete(t)) {
+			return -1;
+		}else {
+			return paga - calcularPrecioBillete(t);
+		}
+	}
 }

@@ -8,12 +8,12 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		
-		double precio, paga;
-		int numPersonas, opcion;
-		String destino;
-		Maquina m = null;
-		Ticket t ;
+		double precio=1.20, paga;
+		int numPersonas=0, opcion;
+		String destino=null;
 		
+		Ticket t = new Ticket(precio,numPersonas,destino);
+		Maquina m = new Maquina (t);
 		do {
 				System.out.println("Pulse 1 para comprar billete");
 				System.out.println("Pulse 2 para obtner el cambio");
@@ -26,19 +26,18 @@ public class Principal {
 			
 				case 1:
 					
-					System.out.printf("Introduzca el precio del billete\n");
-					precio=Leer.datoDouble();
-					
 					
 					System.out.printf("Introduzca el número de personas del billete\n");
 					numPersonas=Leer.datoInt();
 					
+					t.setNumPersonas(numPersonas);
 					
 					System.out.println("Introduzca a donde va usted");
 					destino=Leer.dato();
 					
-					t= new Ticket(precio,numPersonas,destino);
-					m = new Maquina (t);
+					t.setDestino(destino);
+					
+					
 					System.out.printf("El precio del billete es de %.2f€\n",m.calcularPrecioBillete(t));
 					
 				
@@ -49,7 +48,7 @@ public class Principal {
 					System.out.printf("Introduzca el dinero para pagar el billete\n");
 					paga=Leer.datoDouble();
 							
-					System.out.printf("Su cambio es %.2f€\n", m.calcularVuelta(paga));
+					System.out.printf("Su cambio es %.2f€\n", m.calcularVueltaV2(paga));
 					
 			
 			}
