@@ -15,8 +15,13 @@ podrían agregar funcionalidades como alquilar pistas, pagar cuotas, etc*/
 		
 		
 		
+		Socio  s = new Socio ("Fran",24,"123F",1.20);
+		CrudSocio cs= new CrudSocio(lista);
 		
-		
+		cs.agregarSocio(s);
+		System.out.println(lista);
+		cs.borrarSocio("123F");
+		System.out.println(lista);
 		
 		
 		
