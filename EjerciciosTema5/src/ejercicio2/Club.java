@@ -3,6 +3,7 @@ package ejercicio2;
 public class Club {
 
 	private CrudSocio cs;
+	
 
 	public Club(CrudSocio cs) {
 		super();
@@ -23,25 +24,4 @@ public class Club {
 	}
 	
 	
-	public void agregarSocio (CrudSocio cs) {
-		
-		cs.agregarSocio(null);
-	}
-	
-	
-	public void mostrarSocios() {
-		
-		cs.mostrarSocios();
-	}
-	
-	
-	public void buscarSocios (CrudSocio cs) {
-		
-		cs.buscarDni(null);
-	}
-	
-	public void borraSocios () {
-		
-		cs.borrarSocio(null);
-	}
 }

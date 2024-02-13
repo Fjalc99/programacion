@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CrudSocio {
 
-	private List <Socio> lista = new ArrayList <Socio> ();
+	private List <Socio> lista;
 
 	public CrudSocio(List<Socio> lista) {
 		super();
@@ -44,7 +44,7 @@ public class CrudSocio {
 		
 		while (i> lista.size() && !encontrado) {
 			Socio s = lista.get(i);
-			if(s.getDni()==dni) {
+			if(s.getDni().equals(dni)) {
 				encontrado=true;
 			}else {
 				i++;
@@ -60,14 +60,13 @@ public class CrudSocio {
 	}
 	
 	public void borrarSocio (String dni) {	
-		if(!lista.isEmpty()) {
-			lista.remove(dni);
-		}
+			lista.remove(buscarDni(dni));
+		
 		
 	}
 	
-	public void modificarSocio (String dni) {
+	public void modificarSocio (int edad, String dni) {
 		
-		
+		buscarDni(dni).setEdad(edad);
 	}
 }
