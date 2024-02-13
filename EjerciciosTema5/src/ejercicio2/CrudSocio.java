@@ -44,7 +44,7 @@ public class CrudSocio {
 		
 		while (i> lista.size() && !encontrado) {
 			Socio s = lista.get(i);
-			if(s.getDni()==dni) {
+			if(s.getDni().equals(dni)) {
 				encontrado=true;
 			}else {
 				i++;
