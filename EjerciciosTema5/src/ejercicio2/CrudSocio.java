@@ -25,6 +25,49 @@ public class CrudSocio {
 	}
 	
 	
+	public void agregarSocio (Socio s) {
+		
+		lista.add(s);
+	}
 	
+	public void mostrarSocios () {
+		
+		for (Socio s : lista) {
+			System.out.println(s);
+		}
+	}
 	
+	public Socio buscarDni (String dni) {
+		
+		int i=0;
+		boolean encontrado = false;
+		
+		while (i> lista.size() && !encontrado) {
+			Socio s = lista.get(i);
+			if(s.getDni()==dni) {
+				encontrado=true;
+			}else {
+				i++;
+			}
+		}
+		
+		if(encontrado) {
+			return lista.get(i);
+		}else {
+			return null;
+		}
+
+	}
+	
+	public void borrarSocio (String dni) {	
+		if(!lista.isEmpty()) {
+			lista.remove(dni);
+		}
+		
+	}
+	
+	public void modificarSocio (String dni) {
+		
+		
+	}
 }
