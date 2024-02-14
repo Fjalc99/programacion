@@ -42,9 +42,9 @@ public class CrudSocio {
 		int i=0;
 		boolean encontrado = false;
 		
-		while (i> lista.size() && !encontrado) {
+		while (i < lista.size() && !encontrado) {
 			Socio s = lista.get(i);
-			if(s.getDni().equals(dni)) {
+			if(s.getDni().equalsIgnoreCase(dni)) {
 				encontrado=true;
 			}else {
 				i++;
@@ -65,8 +65,8 @@ public class CrudSocio {
 		
 	}
 	
-	public void modificarSocio (int edad, String dni) {
+	public void modificarSocio (int edad, Socio s) {
 		
-		buscarDni(dni).setEdad(edad);
+		s.setEdad(edad);
 	}
 }

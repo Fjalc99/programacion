@@ -2,7 +2,7 @@ package ejemplo;
 
 import java.util.LinkedList;
 
-public class Prueba {
+public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,12 +15,8 @@ public class Prueba {
 		   cars.add(ferrari);
 		   cars.add(bugatti);
 		   cars.add(lambo);
-		  // System.out.println(cars.pollFirst());
-		   //System.out.println(cars.pollLast());
-		  
-		   System.out.println(cars.removeFirstOccurrence(cars));
-		   System.out.println ("What's on the list?");
-		   System.out.println(cars);
+		   System.out.println(cars.peekFirst());
+		   System.out.println(cars.peekLast());
 	}
 
 }
