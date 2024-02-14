@@ -16,6 +16,12 @@ public class Principal {
 		List<Corredor> corredores =new ArrayList<Corredor>();
 		
 		corredores.add(new Corredor(4,1.43,"Jesse Owens"));
+		corredores.add(new Corredor(8,1.11,"Ángel Naranjo"));
+		corredores.add(new Corredor(3,2.23,"Abel Antón"));
+		corredores.add(new Corredor(5,1.12,"Luis Miguel López"));
+	
+		
+		
 	}
 
 }
