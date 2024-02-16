@@ -3,6 +3,8 @@ package ejemplocomparator;
 import java.util.ArrayList;
 import java.util.List;
 
+import utilidades.Leer;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -20,7 +22,17 @@ public class Principal {
 		corredores.add(new Corredor(3,2.23,"Abel Antón"));
 		corredores.add(new Corredor(5,1.12,"Luis Miguel López"));
 	
-		
+		do {
+				System.out.println("Bienvenido al programa");
+				opcionUser=Leer.datoInt();
+				
+				switch(opcionUser) {
+				
+				
+				
+				}
+			
+		} while (opcionUser !=0);
 		
 	}
 
