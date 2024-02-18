@@ -54,7 +54,7 @@ public class CrudAlumno {
 		}
 	}
 	
-	public Alumno buscarAlumno (int id){
+	/*public Alumno buscarAlumno (int id){
 		
 		boolean encontrado=false;
 		Iterator<Alumno> it=lista.iterator();
@@ -70,12 +70,29 @@ public class CrudAlumno {
 		}
 		return a;
 		
+	} */
+	
+	public Alumno buscarAlumno (int id) {
+		
+		for (Alumno a : lista) {
+			if(a.getId()==id) {
+				return a;
+			}
+		}
+		return null;
 		
 		
 	}
 	
-	public void borrarAlumno () {
+	
+	public void borrarAlumno (int id) {
 		
+		lista.remove(buscarAlumno(id));
+	}
+	
+	public void modificarAlumno (double nota, Alumno a) {
+		
+		a.setNota(nota);
 		
 	}
 }
