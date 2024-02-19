@@ -11,6 +11,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\UD5EjemploCrud"/>
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemploLinkedList"/>
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemploOrdenarUD5"/>
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjemplosTema5"/>
+			<item value="C:\Users\alcantarilla.cafra24\Desktop\programacion\EjerciciosTema5"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemploOrdenarUD5"/>
 			<item value="C:\Users\Fran\Desktop\programacion\UD5EjemploCrud"/>
 			<item value="C:\Users\Fran\Desktop\programacion\EjemplosTema5"/>
