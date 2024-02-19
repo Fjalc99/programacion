@@ -77,10 +77,16 @@ public class CrudAgenda {
 	}
 	
 	public void mostrarLista() {
+	
 		for (Contacto c : listaContactos) {
 			System.out.println(c);
 		}
+	}
+	
+	
+	public void modificarContacto (Contacto c, String nombre) {
 		
+		c.setNombre(nombre);
 	}
 	
 }
