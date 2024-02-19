@@ -1,30 +1,27 @@
 package ejercicio4;
 
 import java.util.Map;
+import java.util.Set;
+
 
 public class CrudAgenda {
 
 	private Map<Contacto, String> lista;
-	private String numero;
+	private Set<Contacto> listaContactos;
 
 
-	
-	
-	
-	public CrudAgenda(Map<Contacto, String> lista, String numero) {
+	public CrudAgenda(Map<Contacto, String> lista, Set<Contacto> listaContactos) {
 		super();
 		this.lista = lista;
-		this.numero = numero;
+		this.listaContactos = listaContactos;
 	}
 
-
-
-
+		
+	
 
 	public Map<Contacto, String> getLista() {
 		return lista;
 	}
-
 
 
 
@@ -36,38 +33,58 @@ public class CrudAgenda {
 
 
 
-
-	public String getNumero() {
-		return numero;
+	public Set<Contacto> getListaContactos() {
+		return listaContactos;
 	}
 
 
 
 
-
-	public void setNumero(String numero) {
-		this.numero = numero;
+	public void setListaContactos(Set<Contacto> listaContactos) {
+		this.listaContactos = listaContactos;
 	}
 
 
-
-
+	
 
 	@Override
 	public String toString() {
-		return "CrudAgenda [lista=" + lista + ", numero=" + numero + "]";
+		return "CrudAgenda [lista=" + lista + ", listaContactos=" + listaContactos + "]";
 	}
 
 
 
 
-
-	public void agregarContacto (Contacto c, CrudAgenda crudAgenda) {
+	public void agregarContacto (Contacto c, String numero) {
 		
 		lista.put(c,  numero);
 		
 	}
+	
+	public Contacto buscarContacto (String nombre) {
+		
+		for (Contacto c : listaContactos) {
+			if(c.getNombre().equalsIgnoreCase(nombre)) {
+				return c;
+			}
+		}
+		
+		return null;
+		}
+	
+	public void borrarContacto (String nombre) {
+		lista.remove(buscarContacto(nombre));
+	}
+	
+	public void mostrarLista() {
+		for (Contacto c : listaContactos) {
+			System.out.println(c);
+		}
+		
+	}
+	
+}
 
 	
 	
-}
+

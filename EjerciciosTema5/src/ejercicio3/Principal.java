@@ -18,7 +18,7 @@ public class Principal {
 		
 		CrudAlumno cs = new CrudAlumno(lista);
 		Alumno a = new Alumno(5,"Manuel",4.67);
-		
+		/*Si no tenemos en la clase secretaria  ahi hay que tener que el atributo sea el crudAlumno*/
 		
 		cs.agregarAlumno(new Alumno(1,"Fran",4.45));
 		cs.agregarAlumno(new Alumno(2,"Pepe",7.45));
