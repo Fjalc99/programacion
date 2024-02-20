@@ -10,11 +10,10 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		  LinkedList<Movil> lista = new LinkedList<>();
-		  Movil m = new Movil ("Samsung","Galaxy S20","Negro",1250.00);
 		  CrudMovil cm = new CrudMovil(lista);
 
 		  int opcion, indice;
-		  String marca = null, modelo = null, color = null;
+		  String marca, modelo, color;
 		  double precio;
 		  
 		  do {
@@ -28,7 +27,7 @@ public class Principal {
 			  System.out.println("Pulsa 5 para borrar por indice");
 			  System.out.println("Pulsa 6 para borrar el ultimo de la lista");
 			  opcion=Leer.datoInt();
-			  
+
 			  
 			  switch(opcion) {
 			  		
@@ -66,6 +65,7 @@ public class Principal {
 			  		precio=Leer.datoDouble();
 			  		
 			  		cm.añadirMovilV2(new Movil(marca,modelo,color,precio));
+			  		
 			  		System.out.println(lista);
 			  		
 			  		break;
@@ -79,7 +79,7 @@ public class Principal {
 			  		
 				case 4:
 			  	
-			  		System.out.println(cm.buscarMovilV2(marca));
+			  		System.out.println(cm.buscarMovilV2());
 			  		break;
 			  		
 				case 5:

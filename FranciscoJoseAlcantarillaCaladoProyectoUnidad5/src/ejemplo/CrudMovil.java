@@ -57,7 +57,7 @@ public class CrudMovil {
 	
 	
 	
-	public Movil buscarMovilV2 (String marca) {
+	public Movil buscarMovilV2 () {
 		
 		return lista.getFirst();		
 	
@@ -65,8 +65,9 @@ public class CrudMovil {
 	
 	
 	public void  borrarMovil (int indice) {
+		int uno=1;
 		
-		lista.remove(indice);
+		lista.remove(indice-uno);
 		
 	}
 	
@@ -74,6 +75,8 @@ public void  borrarMovilV2 () {
 		
 		lista.removeLast();
 	}
+
+	
 }
 
 

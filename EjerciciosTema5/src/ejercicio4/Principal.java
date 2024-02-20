@@ -14,7 +14,7 @@ public class Principal {
 		Map<Contacto, String> lista = new HashMap<>();
 		Set<Contacto> listaContactos = lista.keySet();
 
-		Contacto c = new Contacto("Fran");
+		
 		CrudAgenda ca = new CrudAgenda(lista, listaContactos);
 
 		int opcion;
@@ -49,7 +49,7 @@ public class Principal {
 	
 					ca.agregarContacto(new Contacto(nombre), numero);
 	
-					System.out.println(lista);
+					
 	
 					break;
 	
