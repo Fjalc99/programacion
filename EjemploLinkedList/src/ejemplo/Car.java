@@ -26,7 +26,13 @@ public class Car {
 	       cars.addFirst(ford);
 	       cars.addLast(fiat);
 	       System.out.println(cars);
-	   }
+	       
+	       
+	      System.out.println( cars.pop());
+	      cars.push(lambo);
+	      System.out.println(cars);
+	      
+	}
 
 	   @Override
 	   public String toString() {
