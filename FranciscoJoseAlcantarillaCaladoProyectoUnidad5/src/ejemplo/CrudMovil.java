@@ -103,6 +103,8 @@ public class CrudMovil {
 
 	}
 	
+	//Este metodo es el que usamos para mostrar toda la lista 
+	//y usamos un bucle for each porque solo vamos a recorrer la lista
 	public void mostrarLista() {
 		
 		for (Movil m : lista) {
@@ -110,6 +112,7 @@ public class CrudMovil {
 		}
 	}
 	
+	//Este metodo es el que usamos para modificar el precio de los moviles
 	public void modificarMovil (Movil m, double precio) {
 		
 		m.setPrecio(precio);

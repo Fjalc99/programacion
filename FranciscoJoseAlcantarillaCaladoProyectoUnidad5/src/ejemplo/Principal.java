@@ -8,6 +8,11 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/*En este ejemplo vamos a usar la collection LinkedList y vamos a gestionar los moviles 
+		 * de una tienda asi que vamos a buscar por marca, agregar, modificar el precio, eliminar, mostrar la lista entera 
+		 * y parte usar metodos que no hay en arraylist como es agregar el ultimo, buscar el primero, 
+		 * borrar el ultimo, mostrar el ultimo de la lista sin borrarlo y mostrar/eliminar el primero */
 
 		  LinkedList<Movil> lista = new LinkedList<>();
 		  CrudMovil cm = new CrudMovil(lista);
