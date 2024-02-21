@@ -1,7 +1,7 @@
 package ejemplo;
 
-import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 
 public class CrudMovil {
 
@@ -60,6 +60,19 @@ public class CrudMovil {
 			return null;
 	}
 
+	//Este metodo nos muestra si hay mas moviles de esa marca
+	public List<Movil> buscarMovilList(String marca) {
+
+		List<Movil> listaAux = new LinkedList<>();
+
+		for (Movil m : lista) {
+			if (m.getMarca().equalsIgnoreCase(marca)) {
+				listaAux.add(m);
+			}
+		}
+		return listaAux;
+	}
+
 	// Este metodo lo que hace es buscar el primero de la lista y devolverlo
 	// este metodo tiene el inverso para poder buscar el ultimo de la lista y
 	// devolverlo
@@ -84,7 +97,6 @@ public class CrudMovil {
 
 		lista.removeLast();
 	}
-	
 
 	// Este metodo lo que nos hace es mostrar pero no eliminar el ultimo y
 	// si esta la lista vacia muestra null tambien se puede hacer lo mismo
@@ -102,23 +114,21 @@ public class CrudMovil {
 		return lista.pollFirst();
 
 	}
-	
-	//Este metodo es el que usamos para mostrar toda la lista 
-	//y usamos un bucle for each porque solo vamos a recorrer la lista
+
+	// Este metodo es el que usamos para mostrar toda la lista
+	// y usamos un bucle for each porque solo vamos a recorrer la lista
 	public void mostrarLista() {
-		
+
 		for (Movil m : lista) {
 			System.out.println(m);
 		}
 	}
-	
-	//Este metodo es el que usamos para modificar el precio de los moviles
-	public void modificarMovil (Movil m, double precio) {
 		
+
+	// Este metodo es el que usamos para modificar el precio de los moviles
+	public void modificarMovil(Movil m, double precio) {
+
 		m.setPrecio(precio);
-		
+
 	}
 }
-	
-
-

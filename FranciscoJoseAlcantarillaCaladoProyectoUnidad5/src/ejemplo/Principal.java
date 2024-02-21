@@ -93,7 +93,7 @@ public class Principal {
 			  		System.out.println("Introduzca la marca que deseas buscar");
 			  		marca=Leer.dato();
 			  		
-			  		System.out.println(cm.buscarMovil(marca));
+			  		System.out.println(cm.buscarMovilList(marca));
 			  		break;
 			  		
 				case 4:
@@ -113,15 +113,18 @@ public class Principal {
 			  		
 					
 				case 6:
-					 cm.borrarMovilV2();
 					 
+					 cm.mostrarLista();										//Estos mostrar es para ver los cambios
+					 System.out.println("###############################");
+					 cm.borrarMovilV2();
+					 System.out.println("###############################");
 					 cm.mostrarLista();
 					 
 					 break;
 			 
 				case 7:
 					
-					cm.mostrarLista();
+					cm.mostrarLista();										//Estos mostrar es para ver los cambios
 					System.out.println("###############################");
 					System.out.println(cm.mostrarPeeak());
 					System.out.println("###############################");
@@ -130,7 +133,7 @@ public class Principal {
 					
 				
 				case 8:
-					cm.mostrarLista();
+					cm.mostrarLista();										//Estos mostrar es para ver los cambios
 					System.out.println("###############################");					
 					System.out.println(cm.mostrarYeliminar());
 					System.out.println("###############################");
