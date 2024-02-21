@@ -109,6 +109,12 @@ public class CrudMovil {
 			System.out.println(m);
 		}
 	}
+	
+	public void modificarMovil (Movil m, double precio) {
+		
+		m.setPrecio(precio);
+		
+	}
 }
 	
 

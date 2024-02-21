@@ -82,7 +82,7 @@ public class Principal {
 	
 					ca.modificarContacto(ca.buscarContacto(nombre), nuevoNombre);
 	
-					System.out.println(lista);
+					ca.mostrarLista();
 					break;
 	
 				default:

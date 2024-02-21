@@ -15,13 +15,9 @@ public class Principal {
 		  
 		  int opcion, indice;
 		  String marca, modelo, color;
-		  double precio;
+		  double precio, precioNuevo;
 		  
-		  
-		  Movil m =new Movil("Samsung","Note 10","Blanco",500.0);
-		  Movil m1 =new Movil("Xiaomi","Note 8","Negro",300.0);
-		  Movil m2 =new Movil("Iphone","15 Pro","Negro",900.0);
-		  Movil m3 =new Movil("Huawei","S5","Rojo",400.0);
+	
 		  
 		  cm.añadirMovil(new Movil("Samsung","Note 10","Blanco",500.0));
 		  cm.añadirMovil(new Movil("Xiaomi","Note 8","Negro",300.0));
@@ -30,16 +26,19 @@ public class Principal {
 		  
 		  do {
 			
-			  System.out.println("Bienvenido al progama");
+			  System.out.println("Bienvenido al progama"); 
+			  System.out.println("########################################################");
 			  System.out.println("Pulse 0 para salir del programa");
 			  System.out.println("Pulse 1 para añadir un movil");
 			  System.out.println("Pulse 2 para añadir en el ultimo lugar");
 			  System.out.println("Pulse 3 para buscar por marca");
 			  System.out.println("Pulse 4 para buscar el primero de la lista");
-			  System.out.println("Pulsa 5 para borrar por indice");
-			  System.out.println("Pulsa 6 para borrar el ultimo de la lista");
-			  System.out.println("Pulsa 7 para mostrar el ultimo de la lista");
+			  System.out.println("Pulse 5 para borrar por indice");
+			  System.out.println("Pulse 6 para borrar el ultimo de la lista");
+			  System.out.println("Pulse 7 para mostrar el ultimo de la lista");
 			  System.out.println("Pulse 8 para mostrar y eliminar el primero de lista");
+			  System.out.println("Pulse 9 para modificar el precio de un movil");
+			  System.out.println("########################################################");
 			  opcion=Leer.datoInt();
 
 			  
@@ -134,8 +133,23 @@ public class Principal {
 					
 					break;
 					
+				case 9:
+					System.out.println("Intoduzca la marca del movil que quieres modificar");
+					marca=Leer.dato();
+					
+					cm.buscarMovil(marca);
+					
+					System.out.println("Introduzca el precio nuevo");
+					precioNuevo=Leer.datoDouble();
+					
+					cm.modificarMovil(cm.buscarMovil(marca), precioNuevo);
+					
+					cm.mostrarLista();
+					
+					break;
 				
 				default:
+					System.out.println("########################################################");
 					System.out.println("Opcion no valida pruebe de nuevo");
 					
 					break;
