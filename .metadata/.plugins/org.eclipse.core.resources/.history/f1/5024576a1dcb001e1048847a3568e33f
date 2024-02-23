@@ -1,9 +1,0 @@
-package ejemplocomparator;
-
-import java.util.Comparator;
-
-public class ComparaPorMarca implements Comparator <Corredor> {
-
-	
-	
-}
