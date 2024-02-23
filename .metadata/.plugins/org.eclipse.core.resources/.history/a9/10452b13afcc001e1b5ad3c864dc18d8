@@ -1,0 +1,7 @@
+package ejemplocomparator;
+
+import java.util.Comparator;
+
+public class ComparaPorNombre implements Comparator<Corredor {
+
+}

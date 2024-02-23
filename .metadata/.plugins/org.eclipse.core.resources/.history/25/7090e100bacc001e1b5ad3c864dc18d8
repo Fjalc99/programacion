@@ -1,0 +1,21 @@
+package ejercicio3;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Set <Alumno> lista = new HashSet <> ();
+
+		
+		Alumno a = new Alumno (1,"Paco",7.5);
+		CrudAlumno cs = new CrudAlumno(lista);
+		
+		cs.agregarAlumno(new Alumno(2,"Fran",4.45));
+		System.out.println(lista);
+	}
+
+}

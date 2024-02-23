@@ -1,0 +1,11 @@
+package ejercicio5;
+
+import java.util.Comparator;
+
+public class CompararPorNombre implements Comparator <Persona> {
+	
+	
+	
+	
+
+}

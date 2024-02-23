@@ -1,0 +1,12 @@
+package ejemplocomparator;
+
+import java.util.Comparator;
+
+public class ComparaPorNombre implements Comparator<Corredor> {
+	
+	public String compararNombre(Corredor c1, Corredor c2) {
+		
+		return (c2.getNombre().toLowerCase().compareTo(c1.getNombre()));
+	}
+
+}

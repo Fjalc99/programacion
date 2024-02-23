@@ -1,0 +1,32 @@
+package ejercicio3;
+
+import java.util.Set;
+
+public class CrudAlumno {
+
+	private Set <Alumno> lista;
+	
+	
+
+	
+	public CrudAlumno(Set<Alumno> lista) {
+		super();
+		this.lista = lista;
+	}
+
+
+	
+
+	public void agregarAlumno (Alumno a) {
+		lista.add(a);
+		
+	}
+	
+	
+	
+	public void mostrarAlumnos() {
+		for (Alumno a : lista) {
+			System.out.println(a);
+		}
+	}
+}

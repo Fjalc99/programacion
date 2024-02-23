@@ -1,0 +1,16 @@
+package ejercicio2;
+
+public class Socio {
+
+	private String nombre;
+	private int edad;
+	private String dni;
+	private double cuota;
+	
+	
+	
+	
+	
+	
+	
+}

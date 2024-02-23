@@ -1,0 +1,10 @@
+package ejercicio6;
+
+public class Trabajadores {
+
+	private String nombre;
+	private String dni;
+	private int horasTrabajadas;
+	private double sueldoFinal;
+	
+}

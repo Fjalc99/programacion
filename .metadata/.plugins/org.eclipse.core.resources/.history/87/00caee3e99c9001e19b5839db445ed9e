@@ -1,0 +1,6 @@
+package ejercicio2;
+import java.util.ArrayList;
+public class CrudSocio {
+
+	private List <Socio> lista = new ArrayList <> ();
+}

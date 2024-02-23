@@ -1,0 +1,8 @@
+package ejemplocomparator;
+
+public class Corredor {
+
+	private int dorsal;
+	private double marca;
+	private String nombre;
+}

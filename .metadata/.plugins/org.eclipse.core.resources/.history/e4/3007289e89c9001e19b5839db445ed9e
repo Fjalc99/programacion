@@ -1,0 +1,13 @@
+package ejemploMap;
+
+public class Alumno {
+	
+		private int id;
+		private double notaMedia;
+		private String nombre;
+		
+		
+		
+	
+
+}

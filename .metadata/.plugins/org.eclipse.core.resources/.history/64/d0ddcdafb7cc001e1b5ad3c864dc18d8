@@ -1,0 +1,8 @@
+package ejercicio3;
+
+import java.util.Set;
+
+public class CrudAlumno {
+
+	private Set <Alumno> lista;
+}

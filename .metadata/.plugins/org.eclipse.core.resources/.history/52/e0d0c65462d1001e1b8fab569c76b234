@@ -1,0 +1,9 @@
+package ejercicio5;
+
+import java.util.Comparator;
+
+public class Persona implements Comparable <Persona> {
+	
+	private String nombre;
+
+}

@@ -1,0 +1,16 @@
+package ejemploMap2;
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ppal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Map <Integer, Alumno> lista2 = new HashMap <>();
+	}
+
+}
