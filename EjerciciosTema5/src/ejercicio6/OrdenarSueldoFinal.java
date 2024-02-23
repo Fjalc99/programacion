@@ -14,6 +14,7 @@ public class OrdenarSueldoFinal implements Comparator<Trabajador> {
 				return 1;
 			}
 		}
+		
 		return 0;
 	}
 
