@@ -1,7 +1,0 @@
-package ejemplocomparator;
-
-public class ComparaPorMarca implements Comparator<Corredor> {
-
-	
-	
-}

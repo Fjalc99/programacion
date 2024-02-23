@@ -1,7 +1,0 @@
-package ejercicio5;
-
-public class Persona implements Comparator <Persona> {
-	
-	private String nombre;
-
-}
