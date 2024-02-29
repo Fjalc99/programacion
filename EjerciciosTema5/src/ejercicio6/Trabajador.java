@@ -65,4 +65,5 @@ public class Trabajador implements Comparable<Trabajador> {
 		return 0;
 	}
 
+	
 }
