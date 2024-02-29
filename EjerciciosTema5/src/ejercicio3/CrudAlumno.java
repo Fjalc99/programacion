@@ -1,6 +1,6 @@
 package ejercicio3;
 
-import java.util.Iterator;
+
 import java.util.Set;
 
 public class CrudAlumno {
@@ -54,23 +54,7 @@ public class CrudAlumno {
 		}
 	}
 	
-	/*public Alumno buscarAlumno (int id){
-		
-		boolean encontrado=false;
-		Iterator<Alumno> it=lista.iterator();
-		Alumno a=null;
-		while (it.hasNext()&& !encontrado) {
-			a=it.next();
-			if(a.getId()==id) {
-				encontrado=true;
-			}else {
-				return null;
-			}
-			
-		}
-		return a;
-		
-	} */
+	
 	
 	public Alumno buscarAlumno (int id) {
 		
