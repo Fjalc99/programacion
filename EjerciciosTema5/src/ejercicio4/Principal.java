@@ -14,7 +14,6 @@ public class Principal {
 		Map<Contacto, String> lista = new HashMap<>();
 		Set<Contacto> listaContactos = lista.keySet();
 
-		
 		CrudAgenda ca = new CrudAgenda(lista, listaContactos);
 
 		int opcion;
@@ -35,61 +34,59 @@ public class Principal {
 			opcion = Leer.datoInt();
 
 			switch (opcion) {
-				case 0:
-	
-					System.out.println("Saliendo del programa...");
-					break;
-	
-				case 1:
-					System.out.println("Introduzca el nombre del contacto");
-					nombre = Leer.dato();
-	
-					System.out.println("Introduzca el número de telefono");
-					numero = Leer.dato();
-	
-					ca.agregarContacto(new Contacto(nombre), numero);
-	
-					
-	
-					break;
-	
-				case 2:
-					System.out.println("Introduzca el contacto que deseas buscar");
-					nombre = Leer.dato();
-	
-					System.out.println(ca.buscarContacto(nombre));
-	
-					break;
-	
-				case 3:
-	
-					System.out.println("Introduzca el contacto que deseas borrar");
-					nombre = Leer.dato();
-	
-					ca.borrarContacto(nombre);
-					break;
-	
-				case 4:
-					ca.mostrarLista();
-					break;
-	
-				case 5:
-					System.out.println("Introduzca el nombre que desea modificar");
-					nombre = Leer.dato();
-	
-					System.out.println("Introduzca el nuevo nombre");
-					nuevoNombre = Leer.dato();
-	
-					ca.modificarContacto(ca.buscarContacto(nombre), nuevoNombre);
-	
-					ca.mostrarLista();
-					break;
-	
-				default:
-					
-					System.out.println("Opción no valida vuelva a elegir");
-					break;
-				
+			case 0:
+
+				System.out.println("Saliendo del programa...");
+				break;
+
+			case 1:
+				System.out.println("Introduzca el nombre del contacto");
+				nombre = Leer.dato();
+
+				System.out.println("Introduzca el número de telefono");
+				numero = Leer.dato();
+
+				ca.agregarContacto(new Contacto(nombre), numero);
+
+				break;
+
+			case 2:
+				System.out.println("Introduzca el contacto que deseas buscar");
+				nombre = Leer.dato();
+
+				System.out.println(ca.buscarContacto(nombre));
+
+				break;
+
+			case 3:
+
+				System.out.println("Introduzca el contacto que deseas borrar");
+				nombre = Leer.dato();
+
+				ca.borrarContacto(nombre);
+				break;
+
+			case 4:
+				ca.mostrarLista();
+				break;
+
+			case 5:
+				System.out.println("Introduzca el nombre que desea modificar");
+				nombre = Leer.dato();
+
+				System.out.println("Introduzca el nuevo nombre");
+				nuevoNombre = Leer.dato();
+
+				ca.modificarContacto(ca.buscarContacto(nombre), nuevoNombre);
+
+				ca.mostrarLista();
+				break;
+
+			default:
+
+				System.out.println("Opción no valida vuelva a elegir");
+				break;
+
 			}
 
 		} while (opcion != 0);

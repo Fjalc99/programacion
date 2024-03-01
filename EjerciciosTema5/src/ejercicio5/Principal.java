@@ -35,7 +35,7 @@ public class Principal {
 		
 		
 		System.out.println("-----------------------------------------------");
-		System.out.println("Ordenar por edad y nombre");
+		System.out.println("Ordenar por nombre");
 		System.out.println("-----------------------------------------------");
 		
 		Collections.sort(personas, new CompararPorNombre());
