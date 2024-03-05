@@ -45,6 +45,7 @@ public class Principal {
 			System.out.println("Pulse 9 para ordernar por precio de forma ascedente");
 			System.out.println("-----------------------------------------------------------");
 			opcion=Leer.datoInt();
+			System.out.println("");
 			
 			switch(opcion) {
 			
@@ -113,7 +114,7 @@ public class Principal {
 					System.out.println("Introduzca el número del trastero que quieres eliminar");
 					numeroTrastero=Leer.datoInt();
 					
-					of.borrarTrastero(of.buscarNumero(numeroTrastero));
+					of.borrarTrastero(numeroTrastero);
 					
 					break;
 					
@@ -150,12 +151,18 @@ public class Principal {
 						System.out.println(t);
 					}
 					break;
+					
+				default:
+					System.out.println("-----------------------------------------------------------");
+					System.out.println("Opcion no valida vuelva a introducir de nuevo la opción");
+					 break;
 			}
 			
 			
 		} while (opcion !=0);
 		
-		
+		System.out.println("-----------------------------------------------------------");
+		System.out.println("Has salido, gracias por usar el programa");
 		
 	}
 

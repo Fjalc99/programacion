@@ -57,9 +57,6 @@ public class Oficina {
 			
 		}
 			return t;
-		
-		
-	
 	}
 	
 	public Trastero buscarNumero(int numero) {
@@ -83,9 +80,15 @@ public class Oficina {
 
 	}
 	
-	public void borrarTrastero(Trastero t) {
+	/*public void borrarTrastero(Trastero t) {
 		
 		lista.remove(t);
+	}*/
+	
+	
+	public void borrarTrastero(int numero) {
+		
+		lista.remove(buscarNumero(numero));
 	}
 	
 	
