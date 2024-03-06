@@ -38,8 +38,8 @@ public class Principal {
 				System.out.println("Pulse 4 para buscar todas las canciones de un intérprete");
 				System.out.println("Pulse 5 para buscar la canción mas escuchada");
 				System.out.println("");
-				System.out.println("Pulse 7 para ordenar de manera alfabeticamente");
-				System.out.println("Pulse 8 para ordenar de mayor a menor la duracion");
+				System.out.println("Pulse 6 para ordenar de manera alfabeticamente");
+				System.out.println("Pulse 7 para ordenar de mayor a menor la duracion");
 				opcion=Leer.datoInt();
 			
 				
@@ -109,11 +109,15 @@ public class Principal {
 				case 6:
 					
 					miMus.ordenarAlfabeticamente();
+					
+					miMus.mostrarLista();
 					break;
 					
 				case 7:
 					
 					miMus.ordenarDuracionMayor();
+					
+					miMus.mostrarLista();
 					break;
 					
 				case 8:

@@ -101,7 +101,7 @@ public class Cancion implements Comparable <Cancion> {
 	@Override
 	public int compareTo(Cancion c) {
 		// TODO Auto-generated method stub
-		return c.getInterprete().toLowerCase().compareTo(this.interprete.toLowerCase());
+		return  (this.getInterprete().toLowerCase().compareTo(c.getInterprete().toLowerCase()));
 	}
 
 
