@@ -17,7 +17,7 @@ public class Inmobiliaria {
 	}
 
 	public Piso[] getListado() {
-		return listado;
+		return listado; 
 	}
 
 	public void setListado(Piso[] listado) {
@@ -25,7 +25,7 @@ public class Inmobiliaria {
 	}
 
 	public int getNumVendedores() {
-		return numVendedores;
+		return numVendedores; 
 	}
 
 	public void setNumVendedores(int numVendedores) {
@@ -137,12 +137,12 @@ public class Inmobiliaria {
 	public double calcularTotalPisosSeminuevos (int estado) {
 		
 	double suma = 0;	
-	Piso [] aux;
-	aux = buscarPisoNuevos(estado);
+	//Piso [] aux;
+	//aux = buscarPisoNuevos(estado);
 	
 	for (int i = 0; i < numPisos; i++) {
 		if (estado==2) {
-			suma+= aux[i].getPrecioVenta();
+			//suma+= aux[i].getPrecioVenta();
 			suma+=listado[i].getPrecioVenta();
 		}
 		

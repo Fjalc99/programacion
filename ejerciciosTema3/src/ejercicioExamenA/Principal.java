@@ -21,7 +21,7 @@ public class Principal {
 		Piso [] lista = new Piso [tam2];
 		lista[0] =  new Piso("a",10,1,1000,1);
 		lista[1] =  new Piso("b",20,1,1100,2);
-		lista[2] =  new Piso("c",30,2,1500,3);
+		lista[2] =  new Piso("c",30,2,1500,3); 
 		lista[3] =  new Piso("d",40,2,1400,4);
 		lista[4] =  new Piso("e",50,3,1800,5);
 		lista[5] =  new Piso("f",60,3,1600,6);
