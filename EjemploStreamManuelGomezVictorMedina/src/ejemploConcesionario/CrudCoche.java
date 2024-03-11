@@ -59,7 +59,10 @@ public class CrudCoche {
 
 	public List<Coche> findNModelos(String modelo, int limit) {
 
-		return listaCoche.stream().filter(coche -> coche.getModelo().equalsIgnoreCase(modelo)).limit(limit).toList();
+		return listaCoche.stream()
+				.filter(coche -> coche.getModelo().equalsIgnoreCase(modelo))
+				.limit(limit)
+				.toList();
 	}
 
 	public List<Coche> findModelos(String modelo) {
