@@ -72,11 +72,11 @@ public class Carrera {
 	} 
 	
 	
-	public void mostrarVeteranos(Corredor [] listaAux) {
+	public void mostrarVeteranos() {
 		
 		for (int i = 0; i < lista.length; i++) {
-			if (listaAux[i] !=null) {
-				System.out.println(listaAux[i]);
+			if (lista[i] !=null) {
+				System.out.println(lista[i]);
 			}
 		}
 	}
@@ -95,10 +95,10 @@ public class Carrera {
 	
 	public Corredor[] buscarPorCategoria(int categoria) {
 		
-		Corredor [] listaAux = new Corredor [numCorredores];
+		Corredor [] listaAux = new Corredor [lista.length];
 	
-		for (int i = 0; i <= numCorredores; i++) {
-			if (lista[i] !=null  && lista[i].getCategoria()==categoria) {
+		for (int i = 0; i < listaAux.length; i++) {
+			if (lista[i] !=null && lista[i].getCategoria()==categoria) {
 				listaAux[i]=lista[i];
 				
 			}

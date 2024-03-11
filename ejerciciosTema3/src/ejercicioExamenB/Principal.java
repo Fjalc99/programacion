@@ -7,11 +7,12 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int tam=10, opcion, kilometros = 0, numCorredores=6;
+		int tam=10, opcion, kilometros = 0, numCorredores=5;
 		String nombre, apellido;
 		int dorsal, categoria, segundos=60;
 		double tiempoEnMin, nuevoTiempo;
-		 
+		
+		
 		Corredor c;
 		Corredor [] lista = new Corredor [tam];
 		lista[0] = new Corredor("Francisco","Alcantarilla", 26, 2, 10.0);
@@ -76,12 +77,16 @@ public class Principal {
 					System.out.println("Introduzca el número 3 para buscar los veteranos");
 					categoria=Leer.datoInt();
 				
-					ca.mostrarVeteranos(ca.buscarPorCategoria(categoria));
+					System.out.println(ca.buscarPorCategoria(categoria));
+					
+					
+					
+					
 					break;
 						
 				case 4:
 					
-					ca.mostrarVeteranos(lista);
+					ca.mostrarVeteranos();
 					break;
 					
 				case 5:
