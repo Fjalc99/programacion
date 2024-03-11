@@ -4,6 +4,7 @@ package ejemplo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 import utilidades.Leer;
@@ -13,12 +14,13 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Movil m = new Movil ("Samnsung");
 		
-		List <Movil> lista = new ArrayList <>();
+		
+		
 		int e=3, q=5;
 		String mensaje;
-		String marca = null;
+		
+		
 		
 		System.out.println("Intoduzca el mensaje");
 		mensaje=Leer.dato();
@@ -44,16 +46,23 @@ public class Principal {
 		
 		Supplier <Double> movil = () -> Math.random();
 		
-		for (Movil m1 : lista) {
-			System.out.println(m1);
+		for (int i = 0; i < 5; i++) {
+			System.out.println(movil.get());
 		}
 		
 		
-		Consumer <String> mostarMovil = (r) -> System.out.println(m);
-		for (Movil movil2 : lista) {
-			mostarMovil.accept();
+		Consumer <String> mostrarmovil = (r) -> System.out.println(r);
+		for (int i = 0; i < 6; i++) {
+			
+			mostrarmovil.accept(mensaje);
+			
+			Function <Double, Double> aMetros = (km) -> km*1000;
+			Function <Double, Double> aCm = (mt) -> mt*100;
+			
+			
+			
+			
 		}
-		
 		
 	}
 

@@ -149,7 +149,7 @@ public class Principal {
 						
 						
 						
-						//System.out.println(t.calcularTotalPisosSeminuevos(estado));
+						System.out.println(t.calcularTotalPisosSeminuevos(estado));
 						
 						
 						break;

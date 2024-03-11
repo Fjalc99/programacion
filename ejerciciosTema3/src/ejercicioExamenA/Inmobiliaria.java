@@ -134,7 +134,7 @@ public class Inmobiliaria {
 	}
 	
 	
-	/*public double calcularTotalPisosSeminuevos (int estado) {
+	public double calcularTotalPisosSeminuevos (int estado) {
 		
 	double suma = 0;	
 	Piso p;
@@ -142,12 +142,13 @@ public class Inmobiliaria {
 	
 	for (int i = 0; i < numPisos; i++) {
 		if (estado==2) {
-			suma += p.getPrecioVenta();
+			suma+= p.getPrecioVenta();
 		}
+		
 	}
 
 	return suma;
 					
-	}*/
+	}
 
 }
