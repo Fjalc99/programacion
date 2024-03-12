@@ -77,8 +77,9 @@ public class Principal {
 					System.out.println("Introduzca el número 3 para buscar los veteranos");
 					categoria=Leer.datoInt();
 				
-					System.out.println(ca.buscarPorCategoria(categoria));
+					ca.buscarPorCategoria(categoria);
 					
+					ca.mostrarVeteranos();
 					
 					
 					
@@ -86,7 +87,7 @@ public class Principal {
 						
 				case 4:
 					
-					ca.mostrarVeteranos();
+					ca.mostrarCorredores();
 					break;
 					
 				case 5:

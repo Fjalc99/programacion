@@ -71,11 +71,19 @@ public class Carrera {
 
 	} 
 	
+public void mostrarCorredores() {
+		
+		for (int i = 0; i < lista.length; i++) {
+			if (lista[i] !=null) {
+				System.out.println(lista[i]);
+			}
+		}
+	}
 	
 	public void mostrarVeteranos() {
 		
 		for (int i = 0; i < lista.length; i++) {
-			if (lista[i] !=null) {
+			if (lista[i] !=null && lista[i].getCategoria() == 3) {
 				System.out.println(lista[i]);
 			}
 		}
@@ -97,7 +105,7 @@ public class Carrera {
 		
 		Corredor [] listaAux = new Corredor [lista.length];
 	
-		for (int i = 0; i < listaAux.length; i++) {
+		for (int i = 0; i < numCorredores; i++) {
 			if (lista[i] !=null && lista[i].getCategoria()==categoria) {
 				listaAux[i]=lista[i];
 				
