@@ -7,21 +7,33 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int tam=10, opcion, kilometros = 0, numCorredores=5;
+		int tam=10, opcion, kilometros = 0, numCorredores=6;
 		String nombre, apellido;
 		int dorsal, categoria, segundos=60;
 		double tiempoEnMin, nuevoTiempo;
-		
+		Corredor [] lista;
 		
 		Corredor c;
-		Corredor [] lista = new Corredor [tam];
+		
+		System.out.println();
+		
+		//Leer
+		lista = new Corredor [tam];
 		lista[0] = new Corredor("Francisco","Alcantarilla", 26, 2, 10.0);
 		lista[1] = new Corredor("Marisa","Ortega", 17, 2, 26.0);
 		lista[2] = new Corredor("Candi","Alcantarilla", 11, 1, 20.0);
 		lista[3] = new Corredor("Fran","Gamero", 26, 1, 30.0);
 		lista[4] = new Corredor("Carlos","Roman", 25, 3, 11.0);
 		lista[5] = new Corredor("Rosa","Ortega", 26, 3, 18.0);
+		
 		Carrera ca = new Carrera (lista, kilometros, numCorredores);
+		
+		
+		//ca.buscarPorCategoria(3);
+		
+		//ca.mostrarCorredores2(ca.buscarPorCategoria(3));
+		
+
 		
 		do {
 			System.out.println("------------------------------------------");

@@ -101,6 +101,16 @@ public void mostrarCorredores() {
 		return listaAux;
 	}*/
 	
+	
+public void mostrarCorredores(Corredor listado []) {
+		
+		for (int i = 0; i < listado.length; i++) {
+			if (listado[i] !=null) {
+				System.out.println(listado[i]);
+			}
+		}
+}
+	
 	public Corredor[] buscarPorCategoria(int categoria) {
 		
 		Corredor [] listaAux = new Corredor [lista.length];
@@ -110,7 +120,7 @@ public void mostrarCorredores() {
 				listaAux[i]=lista[i];
 				
 			}
-			i++;
+			//i++;//Está en otros sitios porque se usa while, ahora es for no hace falta i++ porque ya está dentro del for
 		}
 		return listaAux;
 	}
@@ -129,5 +139,7 @@ public void mostrarCorredores() {
 		
 		
 	}
+	
+	
 
 }
