@@ -55,9 +55,9 @@ public class Inmobiliaria {
 	public void mostrarPisos(Piso[] lista) {
 
 		for (int i = 0; i < lista.length; i++) {
-			if (lista[i] != null) {
+			
 				System.out.println(lista[i]);
-			}
+			
 
 		}
 	}
