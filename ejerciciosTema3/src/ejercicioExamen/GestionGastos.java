@@ -67,7 +67,7 @@ public class GestionGastos {
 		int id = 0;
 		id++;
 		for (int i = 0; i < numGastos; i++) {
-			System.out.println("Gasto\t" + id++ + "\t" + listado[i].getCantGastada());
+			System.out.println("Gasto " + id++ +":" + "\t" + listado[i].getCantGastada() + "€" );
 		}	
 	}
 	
@@ -82,12 +82,12 @@ public class GestionGastos {
 
 	  public double calcularTotalGastos() {
 	  
-		  double suma=0;
+		 
 		  
 		  for (int i = 0; i < numGastos; i++) {
-			suma += listado[i].getCantGastada();
+			cantTotalGastada += listado[i].getCantGastada();
 		}
-		  return suma;
+		  return cantTotalGastada;
 	  }
 	 
 	  

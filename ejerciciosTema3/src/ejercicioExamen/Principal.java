@@ -77,7 +77,7 @@ public class Principal {
 			 		break;
 			 		
 			 	case 3:
-			 		System.out.println(ga.calcularTotalGastos());
+			 		System.out.printf("La cantidad total es %.2f €\n", ga.calcularTotalGastos());
 			 	
 			 		break;
 			 		
