@@ -40,12 +40,12 @@ public class Secretaria {
 	
 	public void todosAlumnos(){
 		
-		 lista.stream().forEach((Consumer <? super Alumno>)System.out::println) ;
+		 lista.stream().forEach((System.out::println)) ;
 	}
 	
 	public void todosAlumnosv2(List <Alumno> lista){
 		
-		 lista.stream().forEach((Consumer <? super Alumno>)System.out::println) ;
+		 lista.stream().forEach((System.out::println)) ;
 	}
 	
 	

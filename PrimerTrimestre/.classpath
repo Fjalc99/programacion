@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="correccionExamenT3/src"/>
+	<classpathentry kind="src" path="EjemploCrud/src"/>
+	<classpathentry kind="src" path="EjemploCrudAngel/src"/>
+	<classpathentry kind="src" path="ejemploTema3/src"/>
+	<classpathentry kind="src" path="ejercicioRepaso/src"/>
+	<classpathentry kind="src" path="ejerciciosTema3/src"/>
+	<classpathentry kind="src" path="EjerciciosUD1Parte1FranciscoAlcantarilla/src"/>
+	<classpathentry kind="src" path="EjerciciosUD1Parte2FranciscoAlcantarilla/src"/>
+	<classpathentry kind="src" path="EjerciciosUD2FranciscoJoseAlcantarilla/src"/>
+	<classpathentry kind="src" path="EjerciciosUD2Parte1CandidaAlcantarilla/src"/>
+	<classpathentry kind="src" path="EjerciciosUD2Parte1FranciscoAlcantarilla/src"/>
+	<classpathentry kind="src" path="EjercicioUD2Parte2CandidaAlcantarilla/src"/>
+	<classpathentry kind="src" path="Examen3tipoA/src"/>
+	<classpathentry kind="src" path="ExamenArrays/src"/>
+	<classpathentry kind="src" path="ExamenPisosCorreccion/src"/>
+	<classpathentry kind="src" path="ExamenTema3FranciscoJoseAlcantarillaCalado/src"/>
+	<classpathentry kind="src" path="ExamenUD2FranciscoJoseAlcantarillaCalado/src"/>
+	<classpathentry kind="src" path="FranciscoJoséAlcantarillaCaladoTema3/src"/>
+	<classpathentry excluding="ejercicio15/" kind="src" path="Proyecto/ejemplostema2/src"/>
+	<classpathentry kind="src" path="Proyecto/ejemplostema2/src/ejercicio15"/>
+	<classpathentry kind="src" path="Proyecto/src"/>
+	<classpathentry kind="src" path="repaso/src"/>
+	<classpathentry kind="src" path="repasoArrays/src"/>
+	<classpathentry kind="src" path="repasoExamen3/src"/>
+	<classpathentry kind="src" path="tema2/src"/>
+	<classpathentry kind="src" path="Tema2Ejercicios/src"/>
+	<classpathentry kind="output" path="EjemploCrud/bin"/>
+</classpath>
