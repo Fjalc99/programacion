@@ -10,14 +10,16 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int opcion;
+		int opcion, limit;
+		String letra, curso;
 		List <Alumno> lista = new ArrayList <>();
 		
-		Alumno a1 = new Alumno ("Fran", "Alcantarilla", "2ºDAM",6.75,35);
-		Alumno a2 = new Alumno ("Candi", "Alcantarilla", "1ºDAM",8.75,22);
-		Alumno a3 = new Alumno ("Marisa", "Ortega", "2ºDAM",9.75,20);
-		Alumno a4 = new Alumno ("Fran", "Gamero", "1ºDAM",7.75,18);
-		Alumno a5 = new Alumno ("Carlos", "Roman", "1ºComercio",5.75,19);
+		Alumno a1 = new Alumno ("Fran", "Alcantarilla", "1DAM",9.75,35);
+		Alumno a2 = new Alumno ("Candi", "Alcantarilla", "1DAM",9.75,22);
+		Alumno a3 = new Alumno ("Marisa", "Ortega", "1DAM",9.75,20);
+		Alumno a4 = new Alumno ("Fran", "Gamero", "1DAM",7.75,18);
+		Alumno a5 = new Alumno ("Carlos", "Roman", "1Comercio",5.75,18);
+		Alumno a6 = new Alumno ("Rosa", "Ortega", "2Comercio",5.75,19);
 		
 	
 		
@@ -29,6 +31,7 @@ public class Principal {
 		s.addAlumno(a3);
 		s.addAlumno(a4);
 		s.addAlumno(a5);
+		s.addAlumno(a6);
 		
 		
 		do {
@@ -36,7 +39,14 @@ public class Principal {
 			System.out.println("Bienvenido al programa");
 			System.out.println("--------------------------------------------");
 			System.out.println("Pulse 0 para salir del programa");
-			System.out.println("Pulse 1 para obtener todos los alumnos");
+			System.out.println("Pulse 1 para obtener todos los alumnos qye tienen menos de 30 años");
+			System.out.println("Pulse 2 para ver toda la lista");
+			System.out.println("Pulse 3 para todos los alumnos que empiecen por una letra que desee");
+			System.out.println("Pulse 4 para contar la lista con alumnos de menos de 30");
+			System.out.println("Pulse 5 para obtener los alumnos con nota media mayor de 9 en el curso 1DAM.");
+			System.out.println("Pulse 6 para obtner los 3 primeros alumnos");
+			System.out.println("Pulse 7 para obtener el alumno de menor edad");
+			System.out.println("Pulse 8 para obtener el primer alumno");
 			opcion=Leer.datoInt();
 			
 			
@@ -62,7 +72,59 @@ public class Principal {
 					s.todosAlumnos();
 					
 					break;
+					
+				case 3:
+					System.out.println("Introduce la letra por la que quieres filtrar");
+					letra=Leer.dato();
+				
+					System.out.println(s.filtrarPorLetra(letra));
+					
+					
+					break;
+					
+					
+				case 4:
+					System.out.println(s.contarLista());
 			
+					break;
+					
+				case 5:
+						System.out.println("Introduzca el nombre del curso");
+						curso=Leer.dato();
+						
+						s.todosAlumnosv2(s.buscarPorCurso(curso));
+					
+					
+					break;
+					
+					
+				case 6:
+					System.out.println("Introduzca el nombre del curso");
+					curso=Leer.dato();
+					
+					System.out.println("Introduzca el 3 para limitarlo a los 3 primeros");
+					limit=Leer.datoInt();
+					
+					s.todosAlumnosv2(s.primerosAlumnos(curso, limit));
+					
+					break;
+					
+				case 7:
+					
+					System.out.println("Introduzca el 1 para sacar el que menos edad tiene");
+					limit=Leer.datoInt();
+					
+					s.todosAlumnosv2(s.buscarPorEdad());
+					
+					break;
+					
+				case 8:
+					
+					System.out.println(s.primerAlumno());
+					
+					break;
+					
+				case 9:
 			}
 			
 			

@@ -13,7 +13,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int num, num2, opcion;
+		int num, num2, raizCuadrada, opcion;
 		double resultado;
 
 		
@@ -26,6 +26,9 @@ public class Principal {
 			num = Leer.datoInt();
 			System.out.println("Introduzca el segundo número");
 			num2 = Leer.datoInt();
+			
+			System.out.println("Introduzca número para calcular la raíz cuadrada");
+			raizCuadrada=Leer.datoInt();
 
 			do {
 
@@ -72,9 +75,9 @@ public class Principal {
 					break;
 
 				case 5:
-					resultado = num + num2;
+					
 
-					System.out.printf("La resultado es: %.2f\n", resultado);
+					System.out.printf("La resultado es: %.2f\n", Math.sqrt(raizCuadrada));
 
 					break;
 
