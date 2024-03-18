@@ -20,24 +20,27 @@ public class Principal {
 
 		try {
 			
-			System.out.println("Bienvenido al programa");
-			System.out.println("-----------------------------------");
-			System.out.println("Introduzca el primer número");
-			num = Leer.datoInt();
-			System.out.println("Introduzca el segundo número");
-			num2 = Leer.datoInt();
-			
-			System.out.println("Introduzca número para calcular la raíz cuadrada");
-			raizCuadrada=Leer.datoInt();
-
 			do {
+				
+				System.out.println("-------------------------------------------");
+				System.out.println("Bienvenido al programa");
+				System.out.println("-------------------------------------------");
+				System.out.println("Introduzca el primer número");
+				num = Leer.datoInt();
+				System.out.println("Introduzca el segundo número");
+				num2 = Leer.datoInt();
+				
+				System.out.println("Introduzca número para calcular la raíz cuadrada");
+				raizCuadrada=Leer.datoInt();
 
+				System.out.println("-------------------------------------------");
 				System.out.println("Pulse 0 para salir");
 				System.out.println("Pulse 1 para sumar");
 				System.out.println("Pulse 2 para restar");
 				System.out.println("Pulse 3 para multiplicar");
 				System.out.println("Pulse 4 para dividir");
 				System.out.println("Pulse 5 para ráiz cuadrada");
+				System.out.println("-------------------------------------------");
 				opcion = Leer.datoInt();
 
 				switch (opcion) {
@@ -87,11 +90,11 @@ public class Principal {
 
 	} catch (NumberFormatException e) {
 
-			System.err.println("Has introducido una letra");
+			System.out.println("Has introducido una letra");
 		
-		}catch(RuntimeException e) {
+		}catch(ArithmeticException e) {
 			
-			System.err.println("Estas dividiendo por cero");
+			System.out.println("Estas dividiendo por cero");
 		}
 		
 		
