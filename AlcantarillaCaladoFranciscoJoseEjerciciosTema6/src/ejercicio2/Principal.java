@@ -4,7 +4,7 @@ import utilidades.Leer;
 
 public class Principal {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws LimiteGrados {
 		// TODO Auto-generated method stub
 
 		double grado;
@@ -20,8 +20,9 @@ public class Principal {
 			
 			System.out.println(c.convertirCelsius(grado));
 			
-		}catch(LimiteGrados l) {
-			System.out.println("Los grados son negativos");
+		}catch(LimiteGrados e) {
+			
+			System.out.println(e.getMessage());
 		}
 		
 		
