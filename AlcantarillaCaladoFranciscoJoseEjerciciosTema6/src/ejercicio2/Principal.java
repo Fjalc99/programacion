@@ -8,24 +8,36 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		double grado;
-		
-		
+		boolean salida = false;
+
 		Convertidor c = new Convertidor();
-		
-		
-		
+
 		try {
-			System.out.println("Introduzca el grado celsius que quieres pasar a fahrenheit");
-			grado=Leer.datoDouble();
 			
-			System.out.println(c.convertirCelsius(grado));
 			
-		}catch(LimiteGrados e) {
+			do {
+				
+				System.out.println("Introduzca el grado celsius que quieres pasar a fahrenheit");
+				grado = Leer.datoDouble();
+
+				System.out.println(c.convertirCelsius(grado));
+				
+				salida=true;
+				
+				
+			} while (!salida);
 			
+			
+			
+		} catch (LimiteGrados e) {
+
 			System.out.println(e.getMessage());
+		}catch(NumberFormatException e) {
+			System.out.println("Introduce un numero");
+		}catch(Exception e) {
+			System.out.println("Error inesperado");
 		}
-		
-		
+
 	}
 
 }
