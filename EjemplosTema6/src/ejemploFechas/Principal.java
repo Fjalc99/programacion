@@ -37,11 +37,10 @@ public class Principal {
 	
 			
 		}catch(fechaIncorrecta e) {
-			
 			System.out.println(e.getMessage());
 			
-		}catch(Exception e) {
-			System.out.println("Error inesperado");
+		}catch(RuntimeException e) {
+			System.out.println("Introduzca fecha valida");
 		}
 		
 		

@@ -1,6 +1,6 @@
 package ejemploFechas;
 
-public class fechaIncorrecta extends Exception {
+public class fechaIncorrecta extends RuntimeException {
 
 	/**
 	 * 
