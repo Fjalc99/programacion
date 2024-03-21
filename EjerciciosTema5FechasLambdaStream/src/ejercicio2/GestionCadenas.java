@@ -57,9 +57,10 @@ public class GestionCadenas {
 	
 	
 	
-	/*public void pasarMayus(List <Cadena> listado){
+	public List<String> pasarMayus(){
 		
-		 listado.stream().filter(Cadena -> Cadena.getTexto().toUpperCase()).forEach(Cadena::getTexto);
-	}*/
+		return listado.stream().map(Cadena -> Cadena.getTexto().toUpperCase()).toList();
+		
+	}
 	
 }
