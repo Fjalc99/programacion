@@ -2,7 +2,6 @@ package ejemploFechas;
 
 import java.time.LocalDate;
 
-
 import utilidades.Leer;
 
 public class Principal {
@@ -15,10 +14,11 @@ public class Principal {
 		GestionReserva g = new GestionReserva();
 		LocalDate fechaReserva = LocalDate.of(2024, 03, 19);
 			
-		try {
+		
 			
-			do {
+		do {
 					
+			try {
 				System.out.println("Introduzca fecha, (año-mes-día)");
 				fecha=Leer.dato();
 				fechaReserva = LocalDate.parse(fecha);
@@ -33,19 +33,15 @@ public class Principal {
 				
 				
 				
-			}while(!salida);
-	
 			
-		}catch(fechaIncorrecta e) {
-			System.out.println(e.getMessage());
+			}catch(fechaIncorrecta e) {
+					System.out.println(e.getMessage());
+					
+				}catch(RuntimeException e) {
+					System.out.println("Introduzca fecha valida");
+				}
 			
-		}catch(RuntimeException e) {
-			System.out.println("Introduzca fecha valida");
-		}
-		
-		
-		
+		}while(!salida);
 		
 	}
-
 }

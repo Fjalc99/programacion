@@ -12,10 +12,10 @@ public class Principal {
 		SumaVariables s = new SumaVariables();
 		
 		
-		try {
+		
 			
 			do {
-				
+				try {
 				
 				System.out.println("Introduzca el valor de a");
 				a=Leer.datoInt();
@@ -29,19 +29,23 @@ public class Principal {
 				
 				
 				
-			} while (salida);
+				
+				
+			}catch(totalMayor10 e) {
+				System.out.println(e.getMessage());
+			}catch(NumberFormatException e) {
+				System.out.println("Introduzca un número");
+			}catch(RuntimeException e) {
+				System.out.println("Error inesperado");
+			}
+				
 			
 			
+		
+		
+			}while (!salida);
+	}	
 			
-			
-			
-		}catch(totalMayor10 e) {
-			System.out.println(e.getMessage());
-		}catch(NumberFormatException e) {
-			System.out.println("Introduzca un número");
-		}catch(RuntimeException e) {
-			System.out.println("Error inesperado");
-		}
-	}
-
 }
+
+
