@@ -12,6 +12,7 @@ public class Principal{
 		String pin;
 		int opcion = 0;
 		Tarjeta t = new Tarjeta ("124F",2000.0);
+		boolean salida=false;
 		
 		
 		
@@ -34,6 +35,7 @@ public class Principal{
 						retirar=Leer.datoDouble();
 						
 						System.out.println(t.comprobarSaldo(retirar));
+						salida = true;
 						
 						break;
 				
@@ -44,6 +46,7 @@ public class Principal{
 						depositar=Leer.datoDouble();
 						
 						System.out.println(t.comprobarSaldoMin(depositar));
+						salida=true;
 						break;
 				
 				}
@@ -62,9 +65,13 @@ public class Principal{
 				
 			} catch (ComprobarMaximoSaldo e) {
 				// TODO: handle exception
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}catch(ComprobarSaldoMinimo e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
+			}catch(NumberFormatException e) {
+				System.out.println("Introduce un numero de la opcion");
+			}catch(RuntimeException e) {
+				System.out.println("Error inesperado");
 			}
 			
 			
@@ -72,7 +79,7 @@ public class Principal{
 			
 			
 			
-		} while (opcion!=0);
+		} while (!salida);
 		
 		
 		

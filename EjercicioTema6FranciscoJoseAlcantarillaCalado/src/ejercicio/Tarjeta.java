@@ -1,11 +1,7 @@
 package ejercicio;
 
-public class Tarjeta extends RuntimeException{
+public class Tarjeta{
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private String pin;
 	private double saldo;
 	
