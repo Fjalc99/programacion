@@ -48,7 +48,7 @@ public class Vehiculo implements IAlquiler {
 		// TODO Auto-generated method stub
 		int cien=100;
 		
-		return tamMetros * añoFabricacion / cien;
+		return (tamMetros * añoFabricacion) / cien;
 	}
 
 	

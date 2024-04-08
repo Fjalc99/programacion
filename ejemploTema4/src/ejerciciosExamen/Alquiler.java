@@ -5,24 +5,24 @@ import java.util.Iterator;
 
 public class Alquiler {
 	
-	private Vehiculo [] lista;
+	private Vehiculo [] listado;
 
-	public Alquiler(Vehiculo[] lista) {
+	public Alquiler(Vehiculo[] listado) {
 		super();
-		this.lista = lista;
+		this.listado = listado;
 	}
 
 	public Vehiculo[] getLista() {
-		return lista;
+		return listado;
 	}
 
-	public void setLista(Vehiculo[] lista) {
-		this.lista = lista;
+	public void setLista(Vehiculo[] listado) {
+		this.listado = listado;
 	}
 
 	@Override
 	public String toString() {
-		return "Alquiler [lista=" + Arrays.toString(lista) + "]";
+		return "Alquiler [lista=" + Arrays.toString(listado) + "]";
 	}
 	
 	
@@ -31,15 +31,15 @@ public class Alquiler {
 		int i=0;
 		boolean encontrado =false;
 		
-		while(i < lista.length && !encontrado) {
-			if(lista[i].getMatricula().equalsIgnoreCase(matricula)) {
+		while(i < listado.length && !encontrado) {
+			if(listado[i].getMatricula().equalsIgnoreCase(matricula)) {
 				encontrado=true;
 			}else {
 				i++;
 			}
 		}
 		if (encontrado) {
-			return lista[i];
+			return listado[i];
 		}else {
 			return null;
 		}
@@ -56,16 +56,46 @@ public class Alquiler {
 	
 	public void mostrarLista () {
 		
-		for (int i = 0; i < lista.length; i++) {
-			if (lista[i]!=null) {
-				System.out.println(lista[i]);
+		for (int i = 0; i < listado.length; i++) {
+			if (listado[i]!=null) {
+				System.out.println(listado[i]);
 			}
-			if(lista[i] instanceof PatinetesVoladores) {
-				((PatinetesVoladores)lista[i]).avisarPatinete();
+			if(listado[i] instanceof PatinetesVoladores) {
+				((PatinetesVoladores)listado[i]).avisarPatinete();
 			}
 		}
 	}
 	
+	
+	public double totalRecaudado() {
+		
+		double suma = 0;
+		
+		for (int i = 0; i < listado.length; i++) {
+			if(listado[i] !=null) {
+				suma += listado[i].calcularPrecio();
+			}
+			
+		}
+		
+		return suma;
+	}
+	
+	
+	public double totalRecaudadoBatmovil() {
+		
+		double suma = 0; 
+		
+		for (int i = 0; i < listado.length; i++) {
+			
+			if(listado[i] instanceof Batmovil) {
+				suma += ((Batmovil)listado[i]).calcularPrecio();
+			}
+				
+		}
+		
+		return suma;
+	}
 	
 	
 }

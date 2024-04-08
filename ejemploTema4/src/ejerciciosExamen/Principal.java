@@ -9,12 +9,13 @@ public class Principal {
 
 		int tam=10, opcion;
 		String matricula;
-		Vehiculo v;
-		Vehiculo  [] lista = new Vehiculo [tam];
-		lista[0] = new Vehiculo("1245F",25.5,50);
-		lista[1] = new Batmovil ("12588F",65,55,40);
-		lista[2] = new PatinetesVoladores ("12587F",65,20,400.5);		
 		
+		Vehiculo  [] lista = new Vehiculo [tam];
+		
+		lista[0] = new Batmovil ("12588F",65,2024,40);
+		lista[1] = new PatinetesVoladores ("12587F",65,2024,400.5);		
+		lista[2] = new Batmovil("14578A", 10.0, 2024, 6);
+		lista[3] = new PatinetesVoladores("16547L", 20.0, 2024, 600);
 		
 		Alquiler a = new Alquiler (lista);
 		
@@ -26,6 +27,8 @@ public class Principal {
 			System.out.println("Pulse 0 para salir del programa");
 			System.out.println("Pulse 1 para calcular el alquiler del vehículo");
 			System.out.println("Pulse 2 para mostrar la lista");
+			System.out.println("Pulse 3 para ver total recaudado");
+			System.out.println("Pulse 4 para ver total solo de batmoviles");
 			
 			
 			System.out.println("-----------------------------------------------");
@@ -53,8 +56,27 @@ public class Principal {
 					a.mostrarLista();
 					
 					break;
+					
+				case 3:
+					
+					System.out.println(a.totalRecaudado());	
+					
+					
+					break;
 			
+					
+				case 4:
+						System.out.println(a.totalRecaudadoBatmovil());
+					
+					break;
+					
+				default:
+					
+					System.out.println("Opción no valida introduzca el número de nuevo");
+					break;
 			}
+			
+			
 			
 			
 			
