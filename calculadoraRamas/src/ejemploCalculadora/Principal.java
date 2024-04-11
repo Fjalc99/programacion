@@ -31,15 +31,15 @@ public class Principal {
 				case 1:
 					
 					total = num1 + num2;
-<<<<<<< HEAD
+
 					
 					break;
 					
 				case 2:
-=======
-					break;
+
+					
 			
->>>>>>> suma
+
 			
 					total = num1 - num2;
 					
