@@ -31,15 +31,21 @@ public class Principal {
 				case 1:
 					
 					total = num1 + num2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> restar
 					
 					break;
 					
 				case 2:
+<<<<<<< HEAD
 
 					
 			
 
+=======
+>>>>>>> restar
 			
 					total = num1 - num2;
 					
