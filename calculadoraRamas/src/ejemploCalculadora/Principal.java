@@ -32,13 +32,17 @@ public class Principal {
 					
 					total = num1 + num2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> restar
+=======
+>>>>>>> multiplicar
 					
 					break;
 					
 				case 2:
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 					
@@ -46,6 +50,8 @@ public class Principal {
 
 =======
 >>>>>>> restar
+=======
+>>>>>>> multiplicar
 			
 					total = num1 - num2;
 					
