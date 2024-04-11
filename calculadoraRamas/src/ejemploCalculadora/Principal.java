@@ -7,7 +7,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		double num1, num2;
+		double num1, num2, total;
 		int opcion;
 		
 		System.out.println("Introduzca el primer numero");
@@ -28,9 +28,17 @@ public class Principal {
 			
 			switch(opcion) {
 				
-				
+				case 1:
+					
+					total = num1 + num2;
+					
+					break;
+					
+				case 2:
 			
-			
+					total = num1 - num2;
+					
+					break;
 			
 			
 			}
